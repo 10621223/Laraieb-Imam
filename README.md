@@ -18,3 +18,5 @@ Suggestion EC2 since Hubspot is medium entreprise I would suggest EC2 it is suit
 With more than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better.
 
 Recommendations
+
+They should consider switching to EC2 - M4 
