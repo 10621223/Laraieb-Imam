@@ -10,3 +10,5 @@ HubSpot is an American developer and marketer of software products for inbound m
 Cloud service provider : AWS (Amazon web services)
 Suggestion EC2 since Hubspot is medium entreprise I would suggest EC2 it is suitable for scalable infrastructure which Hupspot's growth seems to promise
 With more than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better.
+
+Recommendations
