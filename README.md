@@ -6,6 +6,10 @@ Background of the Entreprise
 
 
 HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service. HubSpot was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support.
+It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.
+
+Current IT Setup
+
 
 Cloud service provider : AWS (Amazon web services)
 Suggestion EC2 since Hubspot is medium entreprise I would suggest EC2 it is suitable for scalable infrastructure which Hupspot's growth seems to promise
