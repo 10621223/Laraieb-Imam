@@ -10,6 +10,8 @@ It was founded on "inbound", the notion that people don't want to be interrupted
 
 Current IT Setup
 
+HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS environment was solely located in the United States. As of July 2021, HubSpot has a new AWS environment in the European Union. HubSpot accounts are hosted in one of these data hosting locations, and customer data is processed and stored in that location. Learn more about  HubSpot's Regional Data Hosting Policy.
+
 
 Cloud service provider : AWS (Amazon web services)
 Suggestion EC2 since Hubspot is medium entreprise I would suggest EC2 it is suitable for scalable infrastructure which Hupspot's growth seems to promise
