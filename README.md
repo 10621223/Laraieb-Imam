@@ -14,10 +14,9 @@ HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazo
 
 
 Recommendations
-Amazon EC2 provide wide section of use cases,  since Hubspot is medium entreprise I would suggest M4 as it is suitable for medium enterprise which can be scaled, Hupspot's seems to fit perfectly in the category. It provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads
+Amazon EC2 provide wide section of use cases,  since Hubspot is medium entreprise I would suggest M4 as it is suitable for medium enterprise which can be scaled, Hupspot's seems to fit perfectly in this category. It provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under M4 Hubspot can select m4.2xlarge Instance where they will get 8 vCPU's which will provide EBS Strorage type with 1000mbps of dedicated EBS bandwidth.
+
 More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (find reference if it's true)..
-Under M4 Hubspot can select m4.2xlarge Instance where they will get 8 vCPU's which will provide
-, EBS Strorage type with 1000mbps of dedicated EBS bandwidth.
 
 Features
 
