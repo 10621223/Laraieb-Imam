@@ -14,7 +14,7 @@ HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS enviro
 
 
 Cloud service provider : AWS (Amazon web services)
-Suggestion EC2 since Hubspot is medium entreprise I would suggest EC2 it is suitable for scalable infrastructure which Hupspot's growth seems to promise
+Suggestion Amazon EC2 provide wide section of use cases,  since Hubspot is medium entreprise I would suggest M4 as it is suitable for scalable infrastructure which Hupspot's growth seems to promise
 With more than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better.
 
 Recommendations
