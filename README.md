@@ -17,4 +17,4 @@ Suggestion Amazon EC2 provide wide section of use cases,  since Hubspot is mediu
 
 Recommendations
 
-They should consider switching to EC2 - M4 
+
