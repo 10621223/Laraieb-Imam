@@ -1,6 +1,6 @@
 # Laraieb-Imam
 CA1
-Enterprise Name: Pipedrive
+Enterprise Name: hubspot
 
 Background
 
@@ -12,6 +12,8 @@ VPC need
 Large Storage FSx cluster file system storage system.
 ec2 
 cloud watch is a monitoring tool to morning how much cloud are they using. where, They wont need their own servers
+
+
 
 
 Current IT Setup
