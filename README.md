@@ -10,11 +10,11 @@ It was founded on "inbound", the notion that people don't want to be interrupted
 
 Current IT Setup
 
-HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS environment was solely located in the United States. As of July 2021, HubSpot has a new AWS environment in the European Union. HubSpot accounts are hosted in one of these data hosting locations, and customer data is processed and stored in that location. Learn more about  HubSpot's Regional Data Hosting Policy.
+HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazon web services) environment was solely located in the United States. As of July 2021, HubSpot has a new AWS environment in the European Union. HubSpot accounts are hosted in one of these data hosting locations, and customer data is processed and stored in that location.
 
 
-Cloud service provider : AWS (Amazon web services)
-Suggestion EC2 since Hubspot is medium entreprise I would suggest EC2 it is suitable for scalable infrastructure which Hupspot's growth seems to promise
-With more than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better.
+Suggestion Amazon EC2 provide wide section of use cases,  since Hubspot is medium entreprise I would suggest M4 as it is suitable for medium enterprise which can be scaled, Hupspot's seems to fit perfectly in the category. More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (find reference)
 
 Recommendations
+
+They should consider switching to EC2 - M4 
