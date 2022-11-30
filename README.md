@@ -1,10 +1,10 @@
 # Laraieb-Imam
 CA1
-Enterprise Name: HubSpot
+Enterprise Name: Pipedrive
 
 Background
 
-
+Pipedrive is a cloud-based software as a service company. It is the developer of the web application and mobile app Pipedrive, a sales customer relationship management (CRM) tool. The company has more than 1,000 employees in its eight offices across Europe (Tallinn, Tartu, Lisbon, London, Prague, Dublin, Riga and Berlin) and two office in the US (New York and Florida). Its CRM is used by over 100,000 customers around the world.[1][2] In 2020 Pipedrive became the fifth Estonian-founded unicorn.
 HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service. HubSpot was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support.
 It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.
 
