@@ -13,17 +13,22 @@ Current IT Setup
 HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazon web services) environment was solely located in the United States. As of July 2021, HubSpot has a new AWS environment in the European Union. HubSpot accounts are hosted in one of these data hosting locations, and customer data is processed and stored in that location.
 
 
-Suggestion Amazon EC2 provide wide section of use cases,  since Hubspot is medium entreprise I would suggest M4 as it is suitable for medium enterprise which can be scaled, Hupspot's seems to fit perfectly in the category. More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (find reference).
-It provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads.
+Recommendations
+Amazon EC2 provide wide section of use cases,  since Hubspot is medium entreprise I would suggest M4 as it is suitable for medium enterprise which can be scaled, Hupspot's seems to fit perfectly in the category. It provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads
+More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (find reference if it's true)..
 
 Features
 
 Custom built Amazon Graviton2 Processor with 64-bit Arm Neoverse cores.
+
 Support for Enhanced Networking with Up to 25 Gbps of Network bandwidth.
+
 EBS-optimized by default.
+
 Powered by the Amazon Nitro System, a combination of dedicated hardware and lightweight hypervisor.
+
 Instance storage offered via EBS or NVMe SSDs that are physically attached to the host server.
 
-Recommendations
+
 
 
