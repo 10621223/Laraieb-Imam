@@ -24,15 +24,10 @@ CRM company Hubspot is data driven company and will required Large storage hence
 Hubspot needs small instance to host CRM applications. Along with M4 and storage system, Cloud Watch will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
 
 Features of EC2 M4
-
 Custom built Amazon Graviton2 Processor with 64-bit Arm Neoverse cores
-
 Support for Enhanced Networking with Up to 25 Gbps of Network bandwidth
-
 EBS-optimized by default
-
 Powered by the Amazon Nitro System, a combination of dedicated hardware and lightweight hypervisor
-
 Instance storage offered via EBS or NVMe SSDs that are physically attached to the host server
 
 
