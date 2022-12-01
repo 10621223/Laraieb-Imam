@@ -1,13 +1,14 @@
 # Laraieb-Imam
 CA1
-<h1>Enterprise Name: Hubspot</h1>
+Enterprise Name: Hubspot
 
 <img src="Images/screenshot.png" alt="test"/>
->>>>>>> afaf2baede3019d98643e6c008b492664565efa6
+
 <h1>Background</h1>
 
 HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service. HubSpot was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.
 More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (find reference if it's true)..
+Last year Revenue was $1.3 Billion
 
 
 
@@ -33,6 +34,14 @@ EBS-optimized by default
 Powered by the Amazon Nitro System, a combination of dedicated hardware and lightweight hypervisor
 
 Instance storage offered via EBS or NVMe SSDs that are physically attached to the host server
+
+
+Cost Estimate - 1mn and 29mn
+12month upfront cost estimate - 0	2473271.417	29679257	USD
+My Estimate	Europe (Ireland)		Amazon EC2	0	109666.8	1316001.6	USD	"Operating system (Windows Server)
+ Quantity (900), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (m4.large)", 
+ My Estimate	Europe (Ireland)		Amazon Elastic Block Store (EBS)	0	2363334.53	28360014.36	USD	"Number of volumes (900), Average duration each instance runs (730 hours per month), Storage amount per volume (16 TB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB)", 
+ My Estimate	Europe (Ireland)		Amazon CloudWatch	0	270.087	3241.04	USD	"Number of Metrics (includes detailed and custom metrics) (900),  GetMetricData: Number of metrics requested (900), Number of other API requests (6000)" Excluding taxes.
 
 <h1>Non-cloud Recommendation</h1>
 
