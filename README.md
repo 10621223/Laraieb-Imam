@@ -1,6 +1,5 @@
 # Laraieb-Imam
 CA1
-<<<<<<< HEAD
 <h1>Enterprise Name: Hubspot</h1>
 
 <img src="Images/screenshot.png" alt="test"/>
@@ -23,7 +22,7 @@ Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise
 CRM company Hubspot is data driven company and will required Large storage hence, FSX cluster file storage system will suit the needs of the company.
 Hubspot needs small instance to host CRM applications. Along with M4 and storage system, Cloud Watch will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
 
-Features
+Features of EC2 M4
 
 Custom built Amazon Graviton2 Processor with 64-bit Arm Neoverse cores
 
