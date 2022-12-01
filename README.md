@@ -39,9 +39,6 @@ Instance storage offered via EBS or NVMe SSDs that are physically attached to th
 Cost Estimate - 1mn and 29mn
 12month upfront cost estimate - 0	2473271.417	29679257	USD
 My Estimate	Europe (Ireland)		Amazon EC2	0	109666.8	1316001.6	USD	"Operating system (Windows Server)
- Quantity (900), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (m4.large)", 
- My Estimate	Europe (Ireland)		Amazon Elastic Block Store (EBS)	0	2363334.53	28360014.36	USD	"Number of volumes (900), Average duration each instance runs (730 hours per month), Storage amount per volume (16 TB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB)", 
- My Estimate	Europe (Ireland)		Amazon CloudWatch	0	270.087	3241.04	USD	"Number of Metrics (includes detailed and custom metrics) (900),  GetMetricData: Number of metrics requested (900), Number of other API requests (6000)" Excluding taxes.
 
 <h1>Non-cloud Recommendation</h1>
 
