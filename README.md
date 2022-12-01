@@ -17,7 +17,7 @@ More than 150,000 companies using HubSpot to scale, it's time to celebrate those
 HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazon web services) environment was solely located in the United States. As of July 2021, HubSpot has a new AWS environment in the European Union. HubSpot accounts are hosted in one of these data hosting locations, and customer data is processed and stored in that location.
 
 
-<h1>Recommendations</h1>
+<h1>Cloud Recommendations</h1>
 
 Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest M4 as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under M4 Hubspot can select m4.2xlarge Instance where they will get 8 vCPU's which will provide EBS Strorage type with 1000mbps of dedicated EBS bandwidth.
 CRM company Hubspot is data driven company and will required Large storage hence, FSX cluster file storage system will suit the needs of the company.
@@ -34,6 +34,8 @@ EBS-optimized by default
 Powered by the Amazon Nitro System, a combination of dedicated hardware and lightweight hypervisor
 
 Instance storage offered via EBS or NVMe SSDs that are physically attached to the host server
+
+<h1>Non-cloud Recommendation</h1>
 
 Small instance to host crm app.
 Cost of AWS nad hubspot combined together -and offered to client . this highly benefits the cliet.
