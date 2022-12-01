@@ -38,9 +38,13 @@ Instance storage offered via EBS or NVMe SSDs that are physically attached to th
 
 Cost Estimate - 1mn and 29mn
 12month upfront cost estimate - 0	2473271.417	29679257	USD
-No. of EC2 instance4s required 900
-Expected Utilisation rate is 80%
 
+No. of EC2 (M4) instance4s required 900
+Expected Utilisation rate is 80%
+900 instances x 0.111 USD x 584 hours in a month = 58,341.60 USD (monthly onDemand cost)
+Amazon EC2 On-Demand instances (monthly): 58,341.60 USD
+
+Amazon Elastic Block Storage (EBS)
 30 GB x 0.11 USD x 900 instances = 2,970.00 USD (EBS Storage Cost)
 EBS Storage Cost: 2,970.00 USD
 Amazon Elastic Block Storage (EBS) pricing (monthly): 2,970.00 USD
