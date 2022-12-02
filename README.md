@@ -24,6 +24,9 @@ CRM company Hubspot is data driven company and will required Large storage hence
 Hubspot needs small instance to host CRM applications. Along with M4 and storage system, Cloud Watch will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
 Summary: Operating system (Linux), Quantity (900), Pricing strategy (On-Demand Instances), Storage amount (16 TB), Instance type (m4.large)
 
+EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on which they run their own computer applications. 
+EC2 encourages scalable deployment of applications by providing a web service with which a user can boot an Amazon Machine Image (AMI) to configure a virtual machine, an "instance" is what Amazon calls it. A user can create, launch, and terminate server-instances as needed, paying by the second for active servers – hence the term "elastic". EC2 provides users with control over the geographical location of instances that allows for latency optimization and high levels of redundancy.In November 2010, Amazon switched its own retail website platform to EC2 and AWS.
+
 <h3>Features of EC2 M4</h3>
 
 Custom built Amazon Graviton2 Processor with 64-bit Arm Neoverse cores
