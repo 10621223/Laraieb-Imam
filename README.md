@@ -32,7 +32,9 @@ Instance storage offered via EBS or NVMe SSDs that are physically attached to th
 
 <h1>EC2 M4 Requirement</h1>
 900 instances will be enough considering the size of the business. It's a CRM company expected Utilisation rate is assumed to be 80% that will account to 584hours in a month. Hourly rate is 0.111 USD.
+
 Price Calculation excluding taxes
+
 900 instances x 0.111 USD x 584 hours in a month = 58,341.60 USD (monthly onDemand cost)
 Amazon EC2 On-Demand instances (monthly): 58,341.60 USD
 
