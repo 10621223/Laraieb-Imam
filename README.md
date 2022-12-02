@@ -62,6 +62,12 @@ Cloud watch is a monitoring tool which helps to track the usage of cloud. It is 
 <h1>Virtual Private Cloud (VPC)</h1>
 1. VPN - As the client might use it outside Ireland then he will need VPN
 
+Unit conversions
+Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month
+Pricing calculations
+900 connnections x 0.05 USD x 730 hours per month = 32,850.00 USD (Site to Site VPN usage cost)
+Site to Site VPN usage cost (monthly): 32,850.00 USD
+
 2. Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so u need data transfer option for analysis and projection
 
 3. Traffic Monitoring - Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check
