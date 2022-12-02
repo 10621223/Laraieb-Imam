@@ -60,13 +60,13 @@ Cloud watch is a monitoring tool which helps to track the usage of cloud. It is 
 <h3>Amazon Elastic Block Storage (EBS)</h3>
 
 <h1>Virtual Private Cloud (VPC)</h1>
-1. VPN
+1. VPN - As the client might use it outside Ireland then he will need VPN
 
-2. Data Transfer
+2. Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so u need data transfer option for analysis and projection
 
-3. Traffic Monitoring
+3. Traffic Monitoring - Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check
 
-4. Gateway Load Balancer
+4. Gateway Load Balancer - Load balancer so that if the usage increases load balancer will create another instance to handle the traffic
   
 Non-cloud Recommadations  
 1. Outsource customer grevience centres
