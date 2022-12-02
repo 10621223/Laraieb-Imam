@@ -19,7 +19,7 @@ HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazo
 
 <h1>Cloud Recommendations</h1>
 
-Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest M4 as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under M4 Hubspot can select m4.2xlarge Instance where they will get 8 vCPU's which will provide EBS Strorage type with 1000mbps of dedicated EBS bandwidth.
+Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest M4 as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under M4 they will get 2 vCPU's which will provide EBS Strorage type with 1000mbps of dedicated EBS bandwidth.
 CRM company Hubspot is data driven company and will required Large storage hence, FSX cluster file storage system will suit the needs of the company.
 Hubspot needs small instance to host CRM applications. Along with M4 and storage system, Cloud Watch will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
 
@@ -38,14 +38,16 @@ Instance storage offered via EBS or NVMe SSDs that are physically attached to th
 <h3>EC2 M4 Requirement</h3>
 900 instances will be enough considering the size of the business. It's a CRM company expected Utilisation rate is assumed to be 80% that will account to 584hours in a month. Hourly rate is 0.111 USD.
 
-
 <b>Price Calculation excluding taxes</b>
 
 900 instances x 0.111 USD x 584 hours in a month = 58,341.60 USD (monthly onDemand cost)
 
 Amazon EC2 On-Demand instances (monthly): 58,341.60 USD
 
-<h1>Amazon Elastic Block Storage (EBS)</h1>
+<h3>Amazon Elastic Block Storage (EBS)</h3>
+EBS is a block level stroage which is used with EC2 cloud to store data. With EBS data can be stored even after EC2 is shutdown.
+
+<b>Price Calculation excluding taxes</b>
 30 GB x 0.11 USD x 900 instances = 2,970.00 USD (EBS Storage Cost)
 EBS Storage Cost: 2,970.00 USD
 Amazon Elastic Block Storage (EBS) pricing (monthly): 2,970.00 USD
