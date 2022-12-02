@@ -58,10 +58,14 @@ Cloud watch is a monitoring tool which helps to track the usage of cloud. It is 
 
 <h1>Virtual Private Cloud (VPC)</h1>
 1. VPN
+
 2. Data Transfer
+
 3. Traffic Monitoring
+
 4. Gateway Load Balancer
   
+Non-cloud Recommadations  
 1. Outsource customer grevience centres
 2. 
 Small instance to host crm app.
