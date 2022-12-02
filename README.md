@@ -22,6 +22,7 @@ HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazo
 Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest M4 as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under M4 they will get 2 vCPU's which will provide EBS Strorage type with 1000mbps of dedicated EBS bandwidth.
 CRM company Hubspot is data driven company and will required Large storage hence, FSX cluster file storage system will suit the needs of the company.
 Hubspot needs small instance to host CRM applications. Along with M4 and storage system, Cloud Watch will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
+Summary: Operating system (Linux), Quantity (900), Pricing strategy (On-Demand Instances), Storage amount (16 TB), Instance type (m4.large)
 
 <h3>Features of EC2 M4</h3>
 
@@ -49,9 +50,13 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 EBS Storage Cost: 1,622,016.00 USD
 Amazon Elastic Block Storage (EBS) pricing (monthly): 1,622,016.00 USD
 
+<h3>Cloud Watch Requirement</h3>
+
+Cloud watch is a monitoring tool which helps to track the usage of cloud. It is offered free of cost by AWS. 
 
 <h1>Non-cloud Recommendation</h1>
 1. Outsource customer grevience centres
+2. 
 Small instance to host crm app.
 Cost of AWS nad hubspot combined together -and offered to client . this highly benefits the cliet.
 VPC need
