@@ -56,7 +56,7 @@ Cloud watch is a monitoring tool which helps to track the usage of cloud. It is 
 
 <h3>Amazon Elastic Block Storage (EBS)</h3>
 
-<h1>Virtual Private Cloud (VPC)h1>
+<h1>Virtual Private Cloud (VPC)</h1>
 1. VPN
 2. Data Transfer
 3. Traffic Monitoring
