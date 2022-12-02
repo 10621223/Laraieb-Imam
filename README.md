@@ -54,7 +54,14 @@ Amazon Elastic Block Storage (EBS) pricing (monthly): 1,622,016.00 USD
 
 Cloud watch is a monitoring tool which helps to track the usage of cloud. It is offered free of cost by AWS. 
 
-<h1>Non-cloud Recommendation</h1>
+<h3>Amazon Elastic Block Storage (EBS)</h3>
+
+<h1>Virtual Private Cloud (VPC)h1>
+1. VPN
+2. Data Transfer
+3. Traffic Monitoring
+4. Gateway Load Balancer
+  
 1. Outsource customer grevience centres
 2. 
 Small instance to host crm app.
