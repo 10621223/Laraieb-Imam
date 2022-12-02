@@ -30,12 +30,9 @@ EBS-optimized by default
 Powered by the Amazon Nitro System, a combination of dedicated hardware and lightweight hypervisor
 Instance storage offered via EBS or NVMe SSDs that are physically attached to the host server
 
-
-Cost Estimate - 1mn and 29mn
-12month upfront cost estimate - 0	2473271.417	29679257	USD
-
-<h1>No. of EC2 (M4) instance4s required 900</h1>
-Expected Utilisation rate is 80%
+<h1>EC2 M4 Requirement</h1>
+900 instances will be enough considering the size of the business. It's a CRM company expected Utilisation rate is assumed to be 80% that will account to 584hours in a month. Hourly rate is 0.111 USD.
+Price Calculation excluding taxes
 900 instances x 0.111 USD x 584 hours in a month = 58,341.60 USD (monthly onDemand cost)
 Amazon EC2 On-Demand instances (monthly): 58,341.60 USD
 
