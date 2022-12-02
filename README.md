@@ -70,9 +70,32 @@ Site to Site VPN usage cost (monthly): 32,850.00 USD
 
 2. Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so u need data transfer option for analysis and projection
 
-3. Traffic Monitoring - Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check
+<b>Calculations</b>: Unit conversions
+Inbound:
+Internet: 16 TB per month x 1024 GB in a TB = 16384 GB per month
+Intra region:
+16 TB per month x 1024 GB in a TB = 16384 GB per month
+Outbound:
+Internet: 16 TB per month x 1024 GB in a TB = 16384 GB per month
+Pricing calculations
+Inbound:
+Internet: 16384 GB x 0 USD per GB = 0.00 USD
+Intra region:
+(16384 GB x 0.01 USD per GB outbound) + (16384 GB x 0.01 USD per GB inbound) = 327.68 USD
+Outbound:
+Internet: Tiered pricing for 16384 GB:
+10240 GB x 0.09 USD per GB = 921.60 USD
+6144 GB x 0.085 USD per GB = 522.24 USD
+Data Transfer cost (monthly): 1,771.52 USD
 
-4. Gateway Load Balancer - Load balancer so that if the usage increases load balancer will create another instance to handle the traffic
+3. Traffic Monitoring - Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. 
+900 sessions x 730 hours in a month x 0.018 USD per session-hr = 11,826.00 USD
+Total Traffic Mirroring charge (monthly): 11,826.00 USD
+
+4. Gateway Load Balancer - Load balancer so that if the usage increases load balancer will create another instance to handle the traffic. (100 will be enough?)
+
+100 availability zones x 0.014 USD x 730 hours in a month = 1,022.00 USD
+Total hourly charges for all Gateway Load Balancers (monthly): 1,022.00 USD  
   
 Non-cloud Recommadations  
 1. Outsource customer grevience centres
