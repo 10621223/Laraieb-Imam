@@ -38,25 +38,17 @@ Instance storage offered via EBS or NVMe SSDs that are physically attached to th
 <h3>EC2 M4 Requirement</h3>
 900 instances will be enough considering the size of the business. It's a CRM company expected Utilisation rate is assumed to be 80% that will account to 584hours in a month. Hourly rate is 0.111 USD (given).
 
-<b>Price Calculation excluding taxes</b>
-
-900 instances x 0.111 USD x 584 hours in a month = 58,341.60 USD (monthly onDemand cost)
-
+<b>Price Calculation excluding taxes</b>: 900 instances x 0.111 USD x 584 hours in a month = 58,341.60 USD (monthly onDemand cost)
 Amazon EC2 On-Demand instances (monthly): 58,341.60 USD
 
 <h3>Amazon Elastic Block Storage (EBS)</h3>
 EBS is a block level stroage which is used with EC2 cloud to store data. With EBS data can be stored even after EC2 is shutdown. Hubspot requires a lot of data storage as any CRM company does. 16 TB will be recommendated, that is 16384 GB. Price is 0.11 USD per month.
 
-<b>Unit conversions</b>
-
-Storage amount: 16 TB x 1024 GB in a TB = 16384 GB
-<b>Price Calculation excluding taxes</b>
-
-16,384 GB x 0.11 USD x 900 instances = 1,622,016.00 USD (EBS Storage Cost)
+<b>Unit conversions</b>: Storage amount: 16 TB x 1024 GB in a TB = 16384 GB
+<b>Price Calculation excluding taxes</b>: 16,384 GB x 0.11 USD x 900 instances = 1,622,016.00 USD (EBS Storage Cost)
 EBS Storage Cost: 1,622,016.00 USD
 Amazon Elastic Block Storage (EBS) pricing (monthly): 1,622,016.00 USD
 
-My Estimate	Europe (Ireland)		Amazon EC2	0	109666.8	1316001.6	USD	"Operating system (Windows Server)
 
 <h1>Non-cloud Recommendation</h1>
 1. Outsource customer grevience centres
