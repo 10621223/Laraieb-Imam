@@ -6,7 +6,7 @@ Enterprise Name: Hubspot
 
 <h1>Background</h1>
 
-HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service, was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.(www.hubspot.com). More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (www.hubspot.com). Hubspot's Last year's Revenue was $1.3 Billion.
+HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service, was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.(www.hubspot.com). More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (www.hubspot.com). Hubspot's Last year's Revenue was $1.3 Billion.(www.hubspot.com).
 
 
 
@@ -45,7 +45,9 @@ Amazon EC2 On-Demand instances (monthly): 58,341.60 USD
 EBS is a block level stroage which is used with EC2 cloud to store data. With EBS data can be stored even after EC2 is shutdown. Hubspot requires a lot of data storage as any CRM company does. 16 TB is recommendated, that is 16384 GB. Price is 0.11 USD per month offered by AWS.
 
 <b>Unit conversions</b>: Storage amount: 16 TB x 1024 GB in a TB = 16384 GB
-<p><b>Price Calculation excluding taxes</b>: 16,384 GB x 0.11 USD x 900 instances = 1,622,016.00 USD (EBS Storage Cost)                                              EBS Storage Cost: 1,622,016.00 USD                                                                                                                                Amazon Elastic Block Storage (EBS) pricing (monthly): 1,622,016.00 USD</p>
+<p><b>Price Calculation excluding taxes</b>: 16,384 GB x 0.11 USD x 900 instances = 1,622,016.00 USD (EBS Storage Cost)                                              
+  EBS Storage Cost: 1,622,016.00 USD                                                                                                                                
+  Amazon Elastic Block Storage (EBS) pricing (monthly): 1,622,016.00 USD</p>
 
 <h3>Cloud Watch Requirement</h3>
 
@@ -105,3 +107,5 @@ www.hubspot.com. <i>HubSpot | Software, Tools, and Resources to Help Your Busine
 www.hubspot.com. <i>Our Story | HubSpot - Internet Marketing Company</i> [Online]. Available at: https://www.hubspot.com/our-story [29 Nov 2022].
 
 www.hubspot.com. <i>158,000 HubSpot Customers and Growing</i> [Online]. Available at: https://www.hubspot.com/customer-spotlight [30 Nov 2022]
+
+www.hubspot.com. <i>HubSpot Reports Q4 and Full Year 2021 Results</i> [Online]. Available at: https://ir.hubspot.com/news/hubspot-reports-q4-and-full-year-2021-results [01 Dec 2022]
