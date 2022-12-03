@@ -34,19 +34,23 @@ Summary: Operating system (Linux), Quantity (900), Pricing strategy (On-Demand I
 
 - Instance storage offered via EBS or NVMe SSDs that are physically attached to the host server
 
-<h3>EC2 m4 Requirement</h3>
+<h3>EC2 m4.large Requirement</h3>
 
 EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on which they run their own computer applications. A user can create, launch, and terminate server-instances as neededand pay by the second for active servers. EC2 provides users with control over the geographical location of instances that allows for latency optimization and high levels of redundancy. 900 instances will be enough considering the size of the business. It's a CRM company expected Utilisation rate is assumed to be 80% that will account to 584hours in a month. Hourly rate by AWS is 0.111 USD.
 
 <b>Price Calculation excluding taxes</b>: 900 instances x 0.111 USD x 584 hours in a month = 58,341.60 USD (monthly onDemand cost)
+
 Amazon EC2 On-Demand instances (monthly): 58,341.60 USD
 
 <h3>Amazon Elastic Block Storage (EBS)</h3>
 EBS is a block level stroage which is used with EC2 cloud to store data. With EBS data can be stored even after EC2 is shutdown. Hubspot requires a lot of data storage as any CRM company does. 16 TB is recommendated, that is 16384 GB. Price is 0.11 USD per month offered by AWS.
 
+
 <b>Unit conversions</b>: Storage amount: 16 TB x 1024 GB in a TB = 16384 GB
 <p><b>Price Calculation excluding taxes</b>: 16,384 GB x 0.11 USD x 900 instances = 1,622,016.00 USD (EBS Storage Cost)                                              
+  
   EBS Storage Cost: 1,622,016.00 USD                                                                                                                                
+  
   Amazon Elastic Block Storage (EBS) pricing (monthly): 1,622,016.00 USD</p>
 
 <h3>Cloud Watch Requirement</h3>
@@ -58,10 +62,10 @@ Virtual private cloud (VPC) is virtual network dedicated to hubspot AWS account
 
 1. VPN - As the client might use it outside Ireland then he will need VPN
 
-Unit conversions
-Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month
-Pricing calculations
-900 connnections x 0.05 USD x 730 hours per month = 32,850.00 USD (Site to Site VPN usage cost)
+<b>Unit conversions</b>: Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month
+
+<b>Pricing calculations</b>: 900 connnections x 0.05 USD x 730 hours per month = 32,850.00 USD (Site to Site VPN usage cost)
+
 Site to Site VPN usage cost (monthly): 32,850.00 USD
 
 2. Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so u need data transfer option for analysis and projection
