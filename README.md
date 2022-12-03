@@ -6,15 +6,13 @@ Enterprise Name: Hubspot
 
 <h1>Background</h1>
 
-HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service. HubSpot was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.
-More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (find reference if it's true)..
-Last year Revenue was $1.3 Billion
+HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service, was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.(www.hubspot.com). More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (www.hubspot.com                                                                   ). Hubspot's Last year's Revenue was $1.3 Billion.
 
 
 
 <h1>Current IT Setup</h1>
 
-HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazon web services) environment was solely located in the United States. As of July 2021, HubSpot has a new AWS environment in the European Union. HubSpot accounts are hosted in one of these data hosting locations, and customer data is processed and stored in that location.
+HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazon web services) environment was solely located in the United States. As of July 2021, HubSpot has a new AWS environment in the European Union. HubSpot accounts are hosted in one of these data hosting locations, and customer data is processed and stored in that location. (www.hubspot.com)
 
 
 <h1>Cloud Recommendations</h1>
@@ -105,5 +103,11 @@ Cost of AWS nad hubspot combined together -and offered to client . this highly b
 VPC need
 Large Storage FSx cluster file system storage system.
 
+<h1>References</h1>
 
+www.hubspot.com. HubSpot | Software, Tools, and Resources to Help Your Business Grow Better [Online] Available at: https.www.hubspot.com [Accessed 1 Dec 2022].
+
+www.hubspot.com. Our Story | HubSpot - Internet Marketing Company [Online]. Available at: https://www.hubspot.com/our-story [29 Nov 2022].
+
+www.hubspot.com. 158,000 HubSpot Customers and Growing [Online]. Available at: https://www.hubspot.com/customer-spotlight [30 Nov 2022]
 
