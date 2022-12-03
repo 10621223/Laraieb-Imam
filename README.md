@@ -45,9 +45,9 @@ Amazon EC2 On-Demand instances (monthly): 58,341.60 USD
 EBS is a block level stroage which is used with EC2 cloud to store data. With EBS data can be stored even after EC2 is shutdown. Hubspot requires a lot of data storage as any CRM company does. 16 TB is recommendated, that is 16384 GB. Price is 0.11 USD per month offered by AWS.
 
 <b>Unit conversions</b>: Storage amount: 16 TB x 1024 GB in a TB = 16384 GB
-<p><b>Price Calculation excluding taxes</b></p>: 16,384 GB x 0.11 USD x 900 instances = 1,622,016.00 USD (EBS Storage Cost)
+<p><b>Price Calculation excluding taxes</b>: 16,384 GB x 0.11 USD x 900 instances = 1,622,016.00 USD (EBS Storage Cost)
 EBS Storage Cost: 1,622,016.00 USD
-Amazon Elastic Block Storage (EBS) pricing (monthly): 1,622,016.00 USD
+Amazon Elastic Block Storage (EBS) pricing (monthly): 1,622,016.00 USD</p>
 
 <h3>Cloud Watch Requirement</h3>
 
