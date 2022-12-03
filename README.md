@@ -105,9 +105,9 @@ Large Storage FSx cluster file system storage system.
 
 <h1>References</h1>
 
-www.hubspot.com. HubSpot | Software, Tools, and Resources to Help Your Business Grow Better [Online] Available at: https.www.hubspot.com [Accessed 1 Dec 2022].
+www.hubspot.com. <i>HubSpot | Software, Tools, and Resources to Help Your Business Grow Better</i> [Online] Available at: https.www.hubspot.com [Accessed 1 Dec 2022].
 
-www.hubspot.com. Our Story | HubSpot - Internet Marketing Company [Online]. Available at: https://www.hubspot.com/our-story [29 Nov 2022].
+www.hubspot.com. <i>Our Story | HubSpot - Internet Marketing Company</i> [Online]. Available at: https://www.hubspot.com/our-story [29 Nov 2022].
 
-www.hubspot.com. 158,000 HubSpot Customers and Growing [Online]. Available at: https://www.hubspot.com/customer-spotlight [30 Nov 2022]
+www.hubspot.com. <i>158,000 HubSpot Customers and Growing</i> [Online]. Available at: https://www.hubspot.com/customer-spotlight [30 Nov 2022]
 
