@@ -102,12 +102,3 @@ Small instance to host crm app.
 Cost of AWS nad hubspot combined together -and offered to client . this highly benefits the cliet.
 VPC need
 Large Storage FSx cluster file system storage system.
-
-
-
-www.hubspot.com. <i>HubSpot | Software, Tools, and Resources to Help Your Business Grow Better</i> [Online] Available at: https.www.hubspot.com [Accessed 1 Dec 2022].
-
-www.hubspot.com. <i>Our Story | HubSpot - Internet Marketing Company</i> [Online]. Available at: https://www.hubspot.com/our-story [29 Nov 2022].
-
-www.hubspot.com. <i>158,000 HubSpot Customers and Growing</i> [Online]. Available at: https://www.hubspot.com/customer-spotlight [30 Nov 2022]
-
