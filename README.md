@@ -103,7 +103,7 @@ Cost of AWS nad hubspot combined together -and offered to client . this highly b
 VPC need
 Large Storage FSx cluster file system storage system.
 
-<h1>References</h1>
+
 
 www.hubspot.com. <i>HubSpot | Software, Tools, and Resources to Help Your Business Grow Better</i> [Online] Available at: https.www.hubspot.com [Accessed 1 Dec 2022].
 
