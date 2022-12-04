@@ -53,7 +53,7 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 <h3>Cloud Watch Requirement</h3>
 Cloud watch is a monitoring tool which helps to track the usage of cloud. It is offered free of cost by AWS. It is offered free of cost by AWS.
 
-<h2>Virtual Private Cloud (VPC)</h2>
+<h3>Virtual Private Cloud (VPC)</h3>
 Virtual private cloud (VPC) is virtual network dedicated to hubspot AWS account
 
 1. VPN - As the client might use it outside Ireland then he will need VPN
