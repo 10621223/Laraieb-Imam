@@ -6,8 +6,7 @@ Enterprise Name: Hubspot
 
 <h1>Background</h1>
 
-HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service, was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.(www.hubspot.com). More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (www.hubspot.com). Hubspot's Last year's (2021) Revenue was $1.3 Billion.(www.hubspot.com).
-
+HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service, was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.(www.hubspot.com). More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (www.hubspot.com). Hubspot's 2021 Revenue was $1.3 Billion.(www.hubspot.com).
 
 
 <h1>Current IT Setup</h1>
@@ -17,12 +16,13 @@ HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazo
 
 <h1>Cloud Recommendations</h1>
 
-Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest m4.large as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under M4 they will get 2 vCPU's which will provide EBS Strorage type with 1000mbps of dedicated EBS bandwidth.
-CRM company Hubspot is data driven company and will required Large storage hence, FSX cluster file storage system will suit the needs of the company.
-Hubspot needs small instance to host CRM applications. Along with m4.large and storage system, Cloud Watch will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
-Summary: Operating system (Linux), Quantity (900), Pricing strategy (On-Demand Instances), Storage amount (16 TB), Instance type (m4.large)
+Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest m4.large as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under <b>m4</b> they will get 2 vCPU's which will provide EBS Strorage type with 1000mbps of dedicated EBS bandwidth.
 
-<h3>Features of EC2 M4</h3>
+CRM company Hubspot is data driven company and will required Large storage hence, FSx cluster file storage system will suit the needs of the company.
+Hubspot will need small instance to host CRM applications. Along with <b>m4.large</b> and storage system, <b>Cloud</b> Watch will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
+In Summary, recommendation for HubSpot is Operating system (Linux), Quantity (900), Pricing strategy (On-Demand Instances), Storage amount (16 TB), Instance type (m4.large).
+
+<h3>Features of EC2 m4</h3>
 
 - Custom built Amazon Graviton2 Processor with 64-bit Arm Neoverse cores
 
@@ -32,7 +32,7 @@ Summary: Operating system (Linux), Quantity (900), Pricing strategy (On-Demand I
 
 - Powered by the Amazon Nitro System, a combination of dedicated hardware and lightweight hypervisor
 
-- Instance storage offered via EBS or NVMe SSDs that are physically attached to the host server
+- Instance storage offered via EBS or NVMe SSDs that are physically attached to the host server (www.aws.amazon.com)
 
 <h3>EC2 m4.large Requirement</h3>
 
@@ -116,3 +116,14 @@ www.hubspot.com. <i>Our Story | HubSpot - Internet Marketing Company</i> [Online
 www.hubspot.com. <i>158,000 HubSpot Customers and Growing</i> [Online]. Available at: https://www.hubspot.com/customer-spotlight [30 Nov 2022]
 
 www.hubspot.com. <i>HubSpot Reports Q4 and Full Year 2021 Results</i> [Online]. Available at: https://ir.hubspot.com/news/hubspot-reports-q4-and-full-year-2021-results [01 Dec 2022]
+
+www.aws.amazon.com <i>Secure and resizable cloud compute - Amazon EC2 - Amazon Web Services</i> [Online]. Available at: https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2 [01 Dec 2022]
+                      
+
+
+                      
+                      
+                      
+                      
+                      
+
