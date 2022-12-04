@@ -58,11 +58,9 @@ Virtual private cloud (VPC) is virtual network dedicated to hubspot AWS account
 
 1. VPN - As the client might use it outside Ireland then he will need VPN
 
-<ul>
-  <li><b>Unit conversions</b>: Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month</li>
-  <li><b>Pricing calculations</b>: 900 connnections x 0.05 USD x 730 hours per month = 32,850.00 USD (Site to Site VPN usage cost)</li>
-  <li>Site to Site VPN usage cost (monthly): 32,850.00 USD</li>
-</ul>
+Unit conversions: Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month
+Pricing calculations: 900 connnections x 0.05 USD x 730 hours per month = 32,850.00 USD (Site to Site VPN usage cost)
+Site to Site VPN usage cost (monthly): 32,850.00 USD
 
 2. Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
 
