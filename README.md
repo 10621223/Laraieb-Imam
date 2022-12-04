@@ -2,7 +2,7 @@
 CA1
 Enterprise Name: Hubspot
 
-<img src="Images/OIP.jpg"/>
+<img src="Images/OIP.jpg" alt=logo/>
 
 <h1>Background</h1>
 
