@@ -92,7 +92,7 @@ Data Transfer cost (monthly): 1,771.52 USD
 
 Total Traffic Mirroring charge (monthly): 11,826.00 USD
 
-4. Gateway Load Balancer - Load balancer so that if the usage increases load balancer will create another instance to handle the traffic. (100 will be enough?)
+4. Gateway Load Balancer - Load balancer so that if the usage increases load balancer will create another instance to handle the traffic.
 
 100 availability zones x 0.014 USD x 730 hours in a month = 1,022.00 USD
 
@@ -115,9 +115,4 @@ www.aws.amazon.com <i>Secure and resizable cloud compute - Amazon EC2 - Amazon W
                       
 
 
-                      
-                      
-                      
-                      
-                      
-
+                
