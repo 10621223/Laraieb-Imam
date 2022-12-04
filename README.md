@@ -38,9 +38,7 @@ In Summary, recommendation for HubSpot is Operating system (Linux), Quantity (90
 
 EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on which they run their own computer applications. A user can create, launch, and terminate server-instances as neededand pay by the second for active servers. EC2 provides users with control over the geographical location of instances that allows for latency optimization and high levels of redundancy. 900 instances will be enough considering the size of the business. It's a CRM company expected Utilisation rate is assumed to be 80% that will account to 584hours in a month. Hourly rate by AWS is 0.111 USD.
 
-<b>Price Calculation excluding taxes</b>: 900 instances x 0.111 USD x 584 hours in a month = 58,341.60 USD (monthly onDemand cost)
-
-Amazon EC2 On-Demand instances (monthly): 58,341.60 USD
+<b>Price Calculation excluding taxes</b>: 900 instances x 0.111 USD x 584 hours in a month = <b>58,341.60 USD (monthly onDemand cost)</b>
 
 <h3>Amazon Elastic Block Storage (EBS)</h3>
 EBS is a block level stroage which is used with EC2 cloud to store data. With EBS data can be stored even after EC2 is shutdown. Hubspot requires a lot of data storage as any CRM company does. 16 TB is recommendated, that is 16384 GB. Price is 0.11 USD per month offered by AWS.
