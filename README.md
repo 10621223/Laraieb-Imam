@@ -98,7 +98,7 @@ Total Traffic Mirroring charge (monthly): 11,826.00 USD
 
 Total hourly charges for all Gateway Load Balancers (monthly): 1,022.00 USD  
   
-**Non-cloud Recommadations**
+Non-cloud Recommadations
 1. Outsource customer grevience centres
 2. 
 
