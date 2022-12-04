@@ -46,9 +46,7 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 
 <ul>
   <li><b>Unit conversions</b>: Storage amount: 16 TB x 1024 GB in a TB = 16384 GB</li>
-  <li><p><b>Price Calculation excluding taxes</b>: 16,384 GB x 0.11 USD x 900 instances = 1,622,016.00 USD (EBS Storage Cost) </li>
-  <li>EBS Storage Cost: 1,622,016.00 USD </li>
-  <li>Amazon Elastic Block Storage (EBS) pricing (monthly): 1,622,016.00 USD</p></li>
+  <li><p><b>Price Calculation excluding taxes</b>: 16,384 GB x 0.11 USD x 900 instances = <b>1,622,016.00 USD (EBS Storage Monthly Cost)<b> </li>
 </ul>
 
 
