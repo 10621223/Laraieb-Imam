@@ -57,15 +57,15 @@ Cloud watch is a monitoring tool which helps to track the usage of cloud. It is 
 Virtual private cloud (VPC) is virtual network dedicated to user, an isolated section of Amazon Web Services (AWS) Cloud. EC2 can be accessed here with other services. Under VPC few things will be needed by Hubspot like VPN, Data Transfer, Traffic Monitoring, Gateway Load Balancer.
 
 <u></ul>
-1. VPN - Virtual Private Network enables users to send and receive data across public networks seemlessly as one would do over private network. It also provides access to resources that cannot be accessed on the public network and typically used for remote workers. Virtual Private Network will be a requirement since the client might use it outside Ireland then he will need VPN to access the services.
+<b>1.</b> VPN - Virtual Private Network enables users to send and receive data across public networks seemlessly as one would do over private network. It also provides access to resources that cannot be accessed on the public network and typically used for remote workers. Virtual Private Network will be a requirement since the client might use it outside Ireland then he will need VPN to access the services.
 <u></ul>
 - <b>Unit conversions:</b>
 Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month
 - <b>Pricing calculations:</b> 900 connnections x 0.05 USD x 730 hours per month = <b>32,850.00 USD (Site to Site VPN usage monthly cost)</b>
 
-2. Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
+<b>2.</b> Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
 
-<b>Calculations</b>: 
+- <b>Calculations</b>: 
 Unit conversions (Inbound)
 
 <b>Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
@@ -74,7 +74,7 @@ Unit conversions (Inbound)
 Outbound:
 Internet: 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
-<b>Pricing calculations</b>
+- <b>Pricing calculations</b>
 
 <b>Inbound:</b>
 
