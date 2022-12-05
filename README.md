@@ -34,7 +34,7 @@ In Summary, recommendation for HubSpot is Operating system (Linux), Quantity (90
 
 - Instance storage offered via EBS or NVMe SSDs that are physically attached to the host server (www.aws.amazon.com)
 
-<h3>EC2 m4.large Requirement</h3>
+<h3>EC2 m4.large</h3>
 
 EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on which they run their own computer applications. A user can create, launch, and terminate server-instances as neededand pay by the second for active servers. EC2 provides users with control over the geographical location of instances that allows for latency optimization and high levels of redundancy. 900 instances will be enough considering the size of the business. It's a CRM company expected Utilisation rate is assumed to be 80% that will account to 584hours in a month. Hourly rate by AWS is 0.111 USD.
 
@@ -50,13 +50,16 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 </ul>
 
 
-<h3>Cloud Watch Requirement</h3>
+<h3>Cloud Watch</h3>
 Cloud watch is a monitoring tool which helps to track the usage of cloud. It is offered free of cost by AWS. It is offered free of cost by AWS.
 
 <h3>Virtual Private Cloud (VPC)</h3>
 Virtual private cloud (VPC) is virtual network dedicated to user, an isolated section of Amazon Web Services (AWS) Cloud. EC2 can be accessed here with other services. Under VPC few things will be needed by Hubspot like VPN, Data Transfer, Traffic Monitoring, Gateway Load Balancer.
 
-1. VPN - Virtual Private Network will be required since the client might use it outside Ireland then he will need VPN to access the services.
+
+1. VPN - Virtual Private Network enables users to send and receive data across public networks as if their computing devices are directly connected to the private network. The benefits of a VPN include . It provides access to resources that are inaccessible on the public network and is typically used for remote workers.
+
+2. Virtual Private Network will be required since the client might use it outside Ireland then he will need VPN to access the services.
 
 <b>Unit conversions:</b>
 Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month
