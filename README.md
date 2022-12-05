@@ -65,14 +65,13 @@ Average duration for each connection: 24 hours per day * (730 hours in a month /
 
 <b>2.</b> Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
 
-- <b>Calculations</b>: 
-Unit conversions (Inbound)
+- <b>Unit conversions</b>: 
 
-<b>Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
-<b>Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
+<b>Inbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
-Outbound:
-Internet: 16 TB per month x 1024 GB in a TB = 16384 GB per month
+<b>Inbound Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
+
+<b>Outbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
 - <b>Pricing calculations</b>
 
