@@ -56,7 +56,9 @@ Cloud watch is a monitoring tool which helps to track the usage of cloud. It is 
 <h3>Virtual Private Cloud (VPC)</h3>
 Virtual private cloud (VPC) is virtual network dedicated to user, an isolated section of Amazon Web Services (AWS) Cloud. EC2 can be accessed here with other services. Under VPC few things will be needed by Hubspot like VPN, Data Transfer, Traffic Monitoring, Gateway Load Balancer.
 
-<u></ul>
+<u>
+</ul>
+
 <b>1.</b> VPN - Virtual Private Network enables users to send and receive data across public networks seemlessly as one would do over private network. It also provides access to resources that cannot be accessed on the public network and typically used for remote workers. Virtual Private Network will be a requirement since the client might use it outside Ireland then he will need VPN to access the services.
 <u></ul>
 - <b>Unit conversions:</b>
@@ -65,13 +67,11 @@ Average duration for each connection: 24 hours per day * (730 hours in a month /
 
 <b>2.</b> Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
 
-- <b>Unit conversions</b>: 
+- <b>Unit conversions</b>: <b>Inbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
-<b>Inbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
+                           <b>Inbound Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
-<b>Inbound Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
-
-<b>Outbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
+                           <b>Outbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
 - <b>Pricing calculations</b>
 
