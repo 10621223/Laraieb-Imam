@@ -58,7 +58,7 @@ Cloud watch is a monitoring tool which helps to track the usage of cloud. Real t
 
 The CloudWatch interface provides current statistics that users can view in graph format. Users can set notification alarms to be sent when something being monitored surpasses a specified threshold. The app can also detect and shut down unused or underused EC2 instances.
 
-<img src="Images/" alt=logo/>
+<img src="Images/CloudWatch.png" alt=Functions/>
 
 
 <h3>Virtual Private Cloud (VPC)</h3>
