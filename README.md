@@ -6,7 +6,7 @@ Enterprise Name: Hubspot
 
 <h1>Background</h1>
 
-HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service, was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.(www.hubspot.com). More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (www.hubspot.com). Hubspot's 2021 Revenue was $1.3 Billion.(www.hubspot.com).
+HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service, was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.(www.hubspot.com). More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (www.hubspot.com). Current workforce of Hubspot is 5,895. Hubspot's 2021 Revenue was $1.3 Billion.(www.hubspot.com).
 
 
 <h1>Current IT Setup</h1>
@@ -34,9 +34,11 @@ In Summary, recommendation for HubSpot is Operating system (Linux), Quantity (90
 
 - Instance storage offered via EBS or NVMe SSDs that are physically attached to the host server (www.aws.amazon.com)
 
-<h3>EC2 m4.large Requirement</h3>
+<h3>EC2 m4.large</h3>
 
-EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on which they run their own computer applications. A user can create, launch, and terminate server-instances as neededand pay by the second for active servers. EC2 provides users with control over the geographical location of instances that allows for latency optimization and high levels of redundancy. 900 instances will be enough considering the size of the business. It's a CRM company expected Utilisation rate is assumed to be 80% that will account to 584hours in a month. Hourly rate by AWS is 0.111 USD.
+EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on which they run their own computer applications. A user can create, launch, and terminate server-instances as neededand pay by the second for active servers. EC2 provides users with control over the geographical location of instances that allows for latency optimization and high levels of redundancy. 
+
+900 instances will be enough assuming the 30% of the workforce (5,895) will be using the instances . It's a CRM company expected Utilisation rate is assumed to be 80% that will account to 584hours in a month. Hourly rate by AWS is 0.111 USD.
 
 <b>Price Calculation excluding taxes</b>: 900 instances x 0.111 USD x 584 hours in a month = <b>58,341.60 USD (monthly onDemand cost)</b>
 
@@ -50,30 +52,37 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 </ul>
 
 
-<h3>Cloud Watch Requirement</h3>
-Cloud watch is a monitoring tool which helps to track the usage of cloud. It is offered free of cost by AWS. It is offered free of cost by AWS.
+<h3>Cloud Watch</h3>
+Cloud watch is a monitoring tool which helps to track the usage of cloud. Real time monitoring of EC2, EBS, The application automatically collects and provides metrics for CPU utilization, latency and request counts. Users can also stipulate additional metrics to be monitored, such as memory usage, transaction volumes or error rates.
+. It is offered free of cost by AWS and will work as an 
+
+The CloudWatch interface provides current statistics that users can view in graph format. Users can set notification alarms to be sent when something being monitored surpasses a specified threshold. The app can also detect and shut down unused or underused EC2 instances.
+
+<img src="Images/CloudWatch.png" alt=Functions/>
+
 
 <h3>Virtual Private Cloud (VPC)</h3>
-Virtual private cloud (VPC) is virtual network dedicated to hubspot AWS account
+Virtual private cloud (VPC) is virtual network dedicated to user, an isolated section of Amazon Web Services (AWS) Cloud. EC2 can be accessed here with other services. Under VPC few things will be needed by Hubspot like VPN, Data Transfer, Traffic Monitoring, Gateway Load Balancer.
 
-1. VPN - As the client might use it outside Ireland then he will need VPN
+<u>
+</ul>
 
-Unit conversions: Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month
-Pricing calculations: 900 connnections x 0.05 USD x 730 hours per month = 32,850.00 USD (Site to Site VPN usage cost)
-Site to Site VPN usage cost (monthly): 32,850.00 USD
+<b>1.</b> VPN - Virtual Private Network enables users to send and receive data across public networks seemlessly as one would do over private network. It also provides access to resources that cannot be accessed on the public network and typically used for remote workers. Virtual Private Network will be a requirement since the client might use it outside Ireland then he will need VPN to access the services.
+<u></ul>
+- <b>Unit conversions:</b>
+Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month
+- <b>Pricing calculations:</b> 900 connnections x 0.05 USD x 730 hours per month = <b>32,850.00 USD (Site to Site VPN usage monthly cost)</b>
 
-2. Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
+<b>2.</b> Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
 
-<b>Calculations</b>: 
-Unit conversions (Inbound)
+- <b>Unit conversions</b>: 
+Inbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
-<b>Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
-<b>Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
+<b>Inbound Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
-Outbound:
-Internet: 16 TB per month x 1024 GB in a TB = 16384 GB per month
+<b>Outbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
-<b>Pricing calculations</b>
+- <b>Pricing calculations</b>
 
 <b>Inbound:</b>
 
