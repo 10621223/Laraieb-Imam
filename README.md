@@ -117,8 +117,8 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 
 <b>Total hourly charges for all Gateway Load Balancers (monthly): 1,022.00 USD</b>  
   
-<h1>Non-cloud Recommadations</h1>
-1. Outsource customer service centres - 
+<h1>Non-cloud Recommadation</h1>
+Outsource customer grievance centre - As a CRM company they can have a huge customer call loads and seprating <b>Grievance Department> and outsourcing it can shed off work burden on the Hubspot employees so they can focus on new businesses and minor grievances can be resolved by outsourced customer centre.
 
 <h1>References</h1>
 www.hubspot.com. <i>HubSpot | Software, Tools, and Resources to Help Your Business Grow Better</i> [Online] Available at: https.www.hubspot.com [Accessed 1 Dec 2022].
