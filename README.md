@@ -22,7 +22,7 @@ It will also include <b>8 Gibibytes (GIB) Microsoft Endpoint Manager (MEM)</b>, 
 
 CRM company Hubspot is data driven company and will required Large storage hence, FSx cluster file storage system will suit the needs of the company. Additionally, <b>Cloud Watch</b> will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
 
-In Summary, recommendation for HubSpot is Quantity of instances (900), Pricing strategy (On-Demand Instances), Storage amount (16 TB), Instance type (m4.large).
+In Summary, recommendation for HubSpot is Quantity of instances (900), Pricing strategy (On-Demand Instances) On Demand since it can be made active whenever needed which will save time and cost usually load balancer handles the traffic and actives EC2 as needed, Storage amount (16 TB), Instance type (m4.large).
 
 <h3>Features of EC2 m4</h3>
 
@@ -48,11 +48,8 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 EBS is a block level stroage which is used with EC2 cloud to store data. With EBS data can be stored even after EC2 is shutdown. Hubspot requires a lot of data storage as any CRM company does. 16 TB is recommendated, that is 16384 GB. Price is 0.11 USD per month offered by AWS.
 
 
-<u>
-<li><b>Unit conversions</b>: Storage amount: 16 TB x 1024 GB in a TB = 16384 GB</li>
-<li><p><b>Price Calculation excluding taxes</b>: 16,384 GB x 0.11 USD x 900 instances = <b>1,622,016.00 USD (EBS Storage Monthly Cost)</b> </li>
-</ul>
-
+-<b>Unit conversions</b>: Storage amount: 16 TB x 1024 GB in a TB = 16384 GB
+-<b>Price Calculation excluding taxes</b>: 16,384 GB x 0.11 USD x 900 instances = <b>1,622,016.00 USD (EBS Storage Monthly Cost)</b> 
 
 <h3>Cloud Watch</h3>
 Cloud watch is a monitoring tool which helps to track the usage of cloud. The application automatically collects and provides metrics for CPU utilization, latency and request counts. Users can also get additional metrics to be monitored, such as memory usage, transaction volumes or error rates.
@@ -77,25 +74,25 @@ Average duration for each connection: 24 hours per day * (730 hours in a month /
 <b>2.</b> Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
 
 - <b>Unit conversions</b>: 
-Inbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
+<b>Inbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
-<b>Inbound Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
-
-<b>Outbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
+<b>Inbound & Outbound Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
 - <b>Pricing calculations</b>
 
 <b>Inbound:</b>
 
-Internet: 16384 GB x 0 USD per GB = 0.00 USD
-Intra region: (16384 GB x 0.01 USD per GB outbound) + (16384 GB x 0.01 USD per GB inbound) = 327.68 USD
+- Internet: 16384 GB x 0 USD per GB = <b>0.00 USD</b>
+
+- Intra region: (16384 GB x 0.01 USD per GB outbound) + (16384 GB x 0.01 USD per GB inbound) = <b>327.68 USD</b>
 
 <b>Outbound:</b>
-Internet: Tiered pricing for 16384 GB: 10240 GB x 0.09 USD per GB = 921.60 USD
 
-6144 GB x 0.085 USD per GB = 522.24 USD
+-Internet: Tiered pricing for 16384 GB: 10240 GB x 0.09 USD per GB = <b>921.60 USD</b>
 
-Data Transfer cost (monthly): 1,771.52 USD
+-Intra region: 6144 GB x 0.085 USD per GB = <b>522.24 USD</b>
+
+<b>Data Transfer cost (monthly): 1,771.52 USD</b>
 
 3. Traffic Monitoring - Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. 
 900 sessions x 730 hours in a month x 0.018 USD per session-hr = 11,826.00 USD
