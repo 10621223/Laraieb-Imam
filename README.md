@@ -66,7 +66,7 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 <u>
 </ul>
 
-<p><b>1.</b> VPN - Virtual Private Network enables users to send and receive data across public networks seemlessly as one would do over private network. It also provides access to resources that cannot be accessed on the public network and typically used for remote workers. Virtual Private Network will be a requirement since the client might use it outside Ireland then he will need VPN to access the services.</p>
+<p><b>1. VPN -</b> Virtual Private Network enables users to send and receive data across public networks seemlessly as one would do over private network. It also provides access to resources that cannot be accessed on the public network and typically used for remote workers. Virtual Private Network will be a requirement since the client might use it outside Ireland then he will need VPN to access the services.</p>
 
 <ul>
   <li><b>Unit conversions:</b></li>
@@ -77,7 +77,7 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
  
 </ul>
 
-<b>2.</b> Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
+<b>2. Data Transfer -</b> Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
 
 <ul>
   <li><b>Unit conversions:</b></li>
@@ -90,9 +90,9 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
   
 <b>Inbound:</b>
 
-Internet: 16384 GB x 0 USD per GB = <b>0.00 USD</b>
+  <b>Internet:</b> 16384 GB x 0 USD per GB = <b>0.00 USD</b>
 
-Intra region: (16384 GB x 0.01 USD per GB outbound) + (16384 GB x 0.01 USD per GB inbound) = <b>327.68 USD</b>
+  <b>Intra region:</b> (16384 GB x 0.01 USD per GB outbound) + (16384 GB x 0.01 USD per GB inbound) = <b>327.68 USD</b>
 </ul>
 
 <ul>
