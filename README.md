@@ -53,9 +53,9 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 </ul>
 
 <h3>Cloud Watch</h3>
-Cloud watch is a monitoring tool which helps to track the usage of cloud. The application automatically collects and provides metrics for CPU utilization, latency and request counts. Users can also get additional metrics to be monitored, such as memory usage, transaction volumes or error rates.
+<p>Cloud watch is a monitoring tool which helps to track the usage of cloud. The application automatically collects and provides metrics for CPU utilization, latency and request counts. Users can also get additional metrics to be monitored, such as memory usage, transaction volumes or error rates.</p>
 
-The CloudWatch interface provides current statistics that users can view in graph format. Users can set notification alarms to be sent when something being monitored surpasses a specified threshold. The app can also detect and shut down unused or underused EC2 instances. It is offered free of cost by AWS and will work as an important tool for HubSpot.
+<p>The CloudWatch interface provides current statistics that users can view in graph format. Users can set notification alarms to be sent when something being monitored surpasses a specified threshold. The app can also detect and shut down unused or underused EC2 instances. It is offered free of cost by AWS and will work as an important tool for HubSpot.</p>
 
 <img src="Images/CloudWatch.png" alt=Functions/>
 
