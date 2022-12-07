@@ -80,11 +80,11 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 <b>2. Data Transfer -</b> Data transfer is required because CRM tool has big data size due to customer information and purchase information and other factors so Hubspot needs data transfer option for analysis and projection.
 
 <ul>
-  <li><b>Unit conversions:</b></li>
+  <p><li><b>Unit conversions:</b></li>
   
 <b>Inbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
-<b>Inbound & Outbound Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
+<b>Inbound & Outbound Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month</p>
 
   <li><b>Pricing calculations:</b></li>
   
