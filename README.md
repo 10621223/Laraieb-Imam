@@ -88,12 +88,14 @@ Internet: 16384 GB x 0 USD per GB = <b>0.00 USD</b>
 
 Intra region: (16384 GB x 0.01 USD per GB outbound) + (16384 GB x 0.01 USD per GB inbound) = <b>327.68 USD</b>
 </ul>
+
+<ul>
 <b>Outbound:</b>
 
 -Internet: Tiered pricing for 16384 GB: 10240 GB x 0.09 USD per GB = <b>921.60 USD</b>
 
 -Intra region: 6144 GB x 0.085 USD per GB = <b>522.24 USD</b>
-
+</ul>
 <b>Data Transfer cost (monthly): 1,771.52 USD</b>
 
 3. Traffic Monitoring - Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. 
