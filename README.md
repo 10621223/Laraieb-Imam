@@ -105,13 +105,13 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 <b>Data Transfer cost (monthly): 1,771.52 USD</b>
 
 
-<b>3.</b> Traffic Monitoring - Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. 
+<b>3. Traffic Monitoring -</b> Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. 
 
 900 sessions x 730 hours in a month x 0.018 USD per session-hr = <b>11,826.00 USD</b>
 
 <b>Total Traffic Mirroring charge (monthly): 11,826.00 USD</b>
 
-<b>4.</b> Gateway Load Balancer - Load balancer so that if the usage increases load balancer will create another instance to handle the traffic.
+<b>4. Gateway Load Balancer -</b> Load balancer so that if the usage increases load balancer will create another instance to handle the traffic.
 
 100 availability zones x 0.014 USD x 730 hours in a month = 1,022.00 USD
 
