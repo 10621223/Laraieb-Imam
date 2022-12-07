@@ -48,10 +48,10 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 EBS is a block level stroage which is used with EC2 cloud to store data. With EBS data can be stored even after EC2 is shutdown. Hubspot requires a lot of data storage as any CRM company does. 16 TB is recommendated, that is 16384 GB. Price is 0.11 USD per month offered by AWS.
 
 
-
+<u>
   <li><b>Unit conversions</b>: Storage amount: 16 TB x 1024 GB in a TB = 16384 GB</li>
   <li><p><b>Price Calculation excluding taxes</b>: 16,384 GB x 0.11 USD x 900 instances = <b>1,622,016.00 USD (EBS Storage Monthly Cost)</b> </li>
-
+</ul>
 
 
 <h3>Cloud Watch</h3>
@@ -123,6 +123,6 @@ www.hubspot.com. <i>HubSpot Reports Q4 and Full Year 2021 Results</i> [Online]. 
 
 www.aws.amazon.com <i>Secure and resizable cloud compute - Amazon EC2 - Amazon Web Services</i> [Online]. Available at: https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2 [01 Dec 2022]
                       
-
+www.techtarget.com <i>
 
                 
