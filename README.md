@@ -60,7 +60,7 @@ The CloudWatch interface provides current statistics that users can view in grap
 
 
 <h3>Virtual Private Cloud (VPC)</h3>
-VPC is virtual network dedicated to user, an isolated section of Amazon Web Services (AWS) Cloud. EC2 can be accessed here with other services. Under VPC few things will be needed by Hubspot like VPN, Data Transfer, Traffic Monitoring, Gateway Load Balancer.
+<p>VPC is virtual network dedicated to user, an isolated section of Amazon Web Services (AWS) Cloud. EC2 can be accessed here with other services. Under VPC few things will be needed by Hubspot like VPN, Data Transfer, Traffic Monitoring, Gateway Load Balancer.</p>
 
 <u>
 </ul>
