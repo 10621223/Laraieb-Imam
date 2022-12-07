@@ -16,11 +16,13 @@ HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazo
 
 <h1>Cloud Recommendations</h1>
 
-Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest m4.large as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under <b>m4</b> they will get 2 vCPU's which will provide EBS Strorage type with 1000mbps of dedicated EBS bandwidth.
+Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest m4.large as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under <b>m4.large</b> they will get 2 vCPU's (Virtual Centralized Processing Unit) which will provide EBS Strorage type with 450mbps of dedicated EBS bandwidth.
+
+It will also include 8 Gibibytes (GIB) Microsoft Endpoint Manager (MEM), which is a cloud-based solution built to solve challenges associated with deploying, managing and securing devices in the enterprise, which includes devices servers, PCs and mobile.
 
 CRM company Hubspot is data driven company and will required Large storage hence, FSx cluster file storage system will suit the needs of the company.
 Hubspot will need small instance to host CRM applications. Along with <b>m4.large</b> and storage system, <b>Cloud</b> Watch will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
-In Summary, recommendation for HubSpot is Operating system (Linux), Quantity (900), Pricing strategy (On-Demand Instances), Storage amount (16 TB), Instance type (m4.large).
+In Summary, recommendation for HubSpot is Quantity of instances (900), Pricing strategy (On-Demand Instances), Storage amount (16 TB), Instance type (m4.large).
 
 <h3>Features of EC2 m4</h3>
 
@@ -53,7 +55,7 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 
 
 <h3>Cloud Watch</h3>
-Cloud watch is a monitoring tool which helps to track the usage of cloud. Real time monitoring of EC2, EBS, The application automatically collects and provides metrics for CPU utilization, latency and request counts. Users can also stipulate additional metrics to be monitored, such as memory usage, transaction volumes or error rates.
+Cloud watch is a monitoring tool which helps to track the usage of cloud. The application automatically collects and provides metrics for CPU utilization, latency and request counts. Users can also stipulate additional metrics to be monitored, such as memory usage, transaction volumes or error rates.
 . It is offered free of cost by AWS and will work as an important tool for HubSpot.
 
 The CloudWatch interface provides current statistics that users can view in graph format. Users can set notification alarms to be sent when something being monitored surpasses a specified threshold. The app can also detect and shut down unused or underused EC2 instances.
@@ -62,7 +64,7 @@ The CloudWatch interface provides current statistics that users can view in grap
 
 
 <h3>Virtual Private Cloud (VPC)</h3>
-Virtual private cloud (VPC) is virtual network dedicated to user, an isolated section of Amazon Web Services (AWS) Cloud. EC2 can be accessed here with other services. Under VPC few things will be needed by Hubspot like VPN, Data Transfer, Traffic Monitoring, Gateway Load Balancer.
+VPC is virtual network dedicated to user, an isolated section of Amazon Web Services (AWS) Cloud. EC2 can be accessed here with other services. Under VPC few things will be needed by Hubspot like VPN, Data Transfer, Traffic Monitoring, Gateway Load Balancer.
 
 <u>
 </ul>
