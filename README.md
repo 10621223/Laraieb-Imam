@@ -98,15 +98,16 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 <ul>
 <b>Outbound:</b>
 
--Internet: Tiered pricing for 16384 GB: 10240 GB x 0.09 USD per GB = <b>921.60 USD</b>
+  <b>Internet:</b> Tiered pricing for 16384 GB: 10240 GB x 0.09 USD per GB = <b>921.60 USD</b>
 
--Intra region: 6144 GB x 0.085 USD per GB = <b>522.24 USD</b>
+  <b>Intra region:</b> 6144 GB x 0.085 USD per GB = <b>522.24 USD</b>
 </ul>
 <b>Data Transfer cost (monthly): 1,771.52 USD</b>
 
 
 <b>3.</b> Traffic Monitoring - Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. 
-900 sessions x 730 hours in a month x 0.018 USD per session-hr = 11,826.00 USD
+
+900 sessions x 730 hours in a month x 0.018 USD per session-hr = <b>11,826.00 USD</b>
 
 <b>Total Traffic Mirroring charge (monthly): 11,826.00 USD</b>
 
