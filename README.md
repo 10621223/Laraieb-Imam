@@ -117,8 +117,8 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 
 <b>Total hourly charges for all Gateway Load Balancers (monthly): 1,022.00 USD</b>  
   
-Non-cloud Recommadations
-1. Outsource customer grevience centres
+<h1>Non-cloud Recommadations</h>
+1. Outsource customer service centres - 
 
 <h1>References</h1>
 www.hubspot.com. <i>HubSpot | Software, Tools, and Resources to Help Your Business Grow Better</i> [Online] Available at: https.www.hubspot.com [Accessed 1 Dec 2022].
