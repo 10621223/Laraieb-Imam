@@ -16,12 +16,12 @@ HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazo
 
 <h1>Cloud Recommendations</h1>
 
-Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest m4.large as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under <b>m4.large</b> they will get 2 vCPU's (Virtual Centralized Processing Unit) which will provide EBS Strorage type with 450mbps of dedicated EBS bandwidth.
+Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest m4.large as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under <b>m4.large</b> they will get <b>2 vCPU's (Virtual Centralized Processing Unit)</b> which will provide <b>EBS Strorage</b> type with <b>450mbps</b> of dedicated EBS bandwidth.
 
-It will also include 8 Gibibytes (GIB) Microsoft Endpoint Manager (MEM), which is a cloud-based solution built to solve challenges associated with deploying, managing and securing devices in the enterprise, which includes devices servers, PCs and mobile.
+It will also include <b>8 Gibibytes (GIB) Microsoft Endpoint Manager (MEM)</b>, which is a cloud-based solution built to solve challenges associated with deploying, managing and securing devices in the enterprise, which includes devices servers, PCs and mobile.
 
-CRM company Hubspot is data driven company and will required Large storage hence, FSx cluster file storage system will suit the needs of the company.
-Hubspot will need small instance to host CRM applications. Along with <b>m4.large</b> and storage system, <b>Cloud</b> Watch will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
+CRM company Hubspot is data driven company and will required Large storage hence, FSx cluster file storage system will suit the needs of the company. Additionally, <b>Cloud Watch</b> will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
+
 In Summary, recommendation for HubSpot is Quantity of instances (900), Pricing strategy (On-Demand Instances), Storage amount (16 TB), Instance type (m4.large).
 
 <h3>Features of EC2 m4</h3>
