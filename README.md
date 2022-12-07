@@ -98,20 +98,20 @@ Intra region: (16384 GB x 0.01 USD per GB outbound) + (16384 GB x 0.01 USD per G
 </ul>
 <b>Data Transfer cost (monthly): 1,771.52 USD</b>
 
-3. Traffic Monitoring - Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. 
+
+<b>3.</b> Traffic Monitoring - Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. 
 900 sessions x 730 hours in a month x 0.018 USD per session-hr = 11,826.00 USD
 
-Total Traffic Mirroring charge (monthly): 11,826.00 USD
+<b>Total Traffic Mirroring charge (monthly): 11,826.00 USD</b>
 
-4. Gateway Load Balancer - Load balancer so that if the usage increases load balancer will create another instance to handle the traffic.
+<b>4.</b> Gateway Load Balancer - Load balancer so that if the usage increases load balancer will create another instance to handle the traffic.
 
 100 availability zones x 0.014 USD x 730 hours in a month = 1,022.00 USD
 
-Total hourly charges for all Gateway Load Balancers (monthly): 1,022.00 USD  
+<b>Total hourly charges for all Gateway Load Balancers (monthly): 1,022.00 USD</b>  
   
 Non-cloud Recommadations
 1. Outsource customer grevience centres
-2. 
 
 <h1>References</h1>
 www.hubspot.com. <i>HubSpot | Software, Tools, and Resources to Help Your Business Grow Better</i> [Online] Available at: https.www.hubspot.com [Accessed 1 Dec 2022].
