@@ -67,11 +67,16 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 </ul>
 
 <p><b>1.</b> VPN - Virtual Private Network enables users to send and receive data across public networks seemlessly as one would do over private network. It also provides access to resources that cannot be accessed on the public network and typically used for remote workers. Virtual Private Network will be a requirement since the client might use it outside Ireland then he will need VPN to access the services.</p>
-<u>
-- <b>Unit conversions:</b>
-Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month
-- <b>Pricing calculations:</b> 900 connnections x 0.05 USD x 730 hours per month = <b>32,850.00 USD (Site to Site VPN usage monthly cost)</b>
+
+<ul>
+  <li><b>Unit conversions:</b></li>
+  
+  Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month
+  
+  <li><b>Pricing calculations:</b> 900 connnections x 0.05 USD x 730 hours per month = <b>32,850.00 USD (Site to Site VPN usage monthly cost)</b></li>
+ 
 </ul>
+
 <b>2.</b> Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
 
 <ul>
