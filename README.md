@@ -66,14 +66,15 @@ VPC is virtual network dedicated to user, an isolated section of Amazon Web Serv
 </ul>
 
 <b>1.</b> VPN - Virtual Private Network enables users to send and receive data across public networks seemlessly as one would do over private network. It also provides access to resources that cannot be accessed on the public network and typically used for remote workers. Virtual Private Network will be a requirement since the client might use it outside Ireland then he will need VPN to access the services.
-<u></ul>
+<u>
 - <b>Unit conversions:</b>
 Average duration for each connection: 24 hours per day * (730 hours in a month / 24 hours in a day) = 730 hours per month
 - <b>Pricing calculations:</b> 900 connnections x 0.05 USD x 730 hours per month = <b>32,850.00 USD (Site to Site VPN usage monthly cost)</b>
-
+</ul>
 <b>2.</b> Data Transfer - Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
 
 - <b>Unit conversions</b>: 
+- 
 <b>Inbound Internet:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
 <b>Inbound & Outbound Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
@@ -82,10 +83,11 @@ Average duration for each connection: 24 hours per day * (730 hours in a month /
 
 <b>Inbound:</b>
 
-- Internet: 16384 GB x 0 USD per GB = <b>0.00 USD</b>
+</ul>
+Internet: 16384 GB x 0 USD per GB = <b>0.00 USD</b>
 
-- Intra region: (16384 GB x 0.01 USD per GB outbound) + (16384 GB x 0.01 USD per GB inbound) = <b>327.68 USD</b>
-
+Intra region: (16384 GB x 0.01 USD per GB outbound) + (16384 GB x 0.01 USD per GB inbound) = <b>327.68 USD</b>
+</ul>
 <b>Outbound:</b>
 
 -Internet: Tiered pricing for 16384 GB: 10240 GB x 0.09 USD per GB = <b>921.60 USD</b>
