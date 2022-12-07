@@ -117,7 +117,7 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 
 <b>Total hourly charges for all Gateway Load Balancers (monthly): 1,022.00 USD</b>  
   
-<h1>Non-cloud Recommadations</h>
+<h1>Non-cloud Recommadations</h1>
 1. Outsource customer service centres - 
 
 <h1>References</h1>
