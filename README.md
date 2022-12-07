@@ -77,7 +77,7 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
  
 </ul>
 
-<b>2. Data Transfer -</b> Data transfer because CRM tool has big data size due to customer information or purchase and other factors so Hubspot needs data transfer option for analysis and projection
+<b>2. Data Transfer -</b> Data transfer is required because CRM tool has big data size due to customer information and purchase information and other factors so Hubspot needs data transfer option for analysis and projection.
 
 <ul>
   <li><b>Unit conversions:</b></li>
@@ -86,7 +86,7 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 
 <b>Inbound & Outbound Intra region:</b> 16 TB per month x 1024 GB in a TB = 16384 GB per month
 
-  <li><b>Pricing calculations</b></li>
+  <li><b>Pricing calculations:</b></li>
   
 <b>Inbound:</b>
 
@@ -105,13 +105,13 @@ EBS is a block level stroage which is used with EC2 cloud to store data. With EB
 <p><b>Data Transfer cost (monthly): 1,771.52 USD</b></p>
 
 
-<p><b>3. Traffic Monitoring -</b> Traffic monitoring because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. </b>
+<p><b>3. Traffic Monitoring -</b> Traffic monitoring is required because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. </b>
 
 900 sessions x 730 hours in a month x 0.018 USD per session-hr = <b>11,826.00 USD</b>
 
 <b>Total Traffic Mirroring charge (monthly): 11,826.00 USD</b>
 
-<b>4. Gateway Load Balancer -</b> Load balancer so that if the usage increases load balancer will create another instance to handle the traffic.
+<b>4. Gateway Load Balancer -</b> Load balancer is required so if the usage increases load balancer will create another instance to handle the traffic.
 
 100 availability zones x 0.014 USD x 730 hours in a month = 1,022.00 USD
 
@@ -123,14 +123,14 @@ Non-cloud Recommadations
 <h1>References</h1>
 www.hubspot.com. <i>HubSpot | Software, Tools, and Resources to Help Your Business Grow Better</i> [Online] Available at: https.www.hubspot.com [Accessed 1 Dec 2022].
 
-www.hubspot.com. <i>Our Story | HubSpot - Internet Marketing Company</i> [Online]. Available at: https://www.hubspot.com/our-story [29 Nov 2022].
+www.hubspot.com. <i>Our Story | HubSpot - Internet Marketing Company</i> [Online]. Available at: https://www.hubspot.com/our-story [Accessed 29 Nov 2022].
 
-www.hubspot.com. <i>158,000 HubSpot Customers and Growing</i> [Online]. Available at: https://www.hubspot.com/customer-spotlight [30 Nov 2022]
+www.hubspot.com. <i>158,000 HubSpot Customers and Growing</i> [Online]. Available at: https://www.hubspot.com/customer-spotlight [Accessed 30 Nov 2022]
 
-www.hubspot.com. <i>HubSpot Reports Q4 and Full Year 2021 Results</i> [Online]. Available at: https://ir.hubspot.com/news/hubspot-reports-q4-and-full-year-2021-results [01 Dec 2022]
+www.hubspot.com. <i>HubSpot Reports Q4 and Full Year 2021 Results</i> [Online]. Available at: https://ir.hubspot.com/news/hubspot-reports-q4-and-full-year-2021-results [Accessed 01 Dec 2022]
 
-www.aws.amazon.com <i>Secure and resizable cloud compute - Amazon EC2 - Amazon Web Services</i> [Online]. Available at: https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2 [01 Dec 2022]
+www.aws.amazon.com <i>Secure and resizable cloud compute - Amazon EC2 - Amazon Web Services</i> [Online]. Available at: https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2 [Accessed 01 Dec 2022]
                       
-www.techtarget.com <i>
+www.techtarget.com <i>What is Amazon <B>CloudWatch</b></i> [Online]. Available at: https://www.techtarget.com/searchaws/definition/CloudWatch [Accessed 04 Dec 2022]
 
                 
