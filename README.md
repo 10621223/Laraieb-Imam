@@ -11,7 +11,8 @@ HubSpot is an American developer and marketer of software products for inbound m
 
 <h1>Current IT Setup</h1>
 
-HubSpot supports regional data hosting. Prior to July 2021, HubSpot's AWS (Amazon web services) environment was solely located in the United States. As of July 2021, HubSpot has a new AWS environment in the European Union. HubSpot accounts are hosted in one of these data hosting locations, and customer data is processed and stored in that location. (www.hubspot.com)
+Assuming that Hubspot, a medium CRM company have everything inhouse 
+
 
 
 <h1>Cloud Recommendations</h1>
