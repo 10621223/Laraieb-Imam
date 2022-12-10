@@ -11,7 +11,20 @@ HubSpot is an American developer and marketer of software products for inbound m
 
 <h1>Current IT Setup</h1>
 
-Assuming that Hubspot, a medium CRM company have everything inhouse 
+Assuming that Hubspot, a medium CRM company have everything inhouse Network infrastructure, Web servers and Data center.
+
+Head Node Rack Server R640 - $3,019.00,
+
+Flexible Compute R840 and R6415 - PowerEdge R840 Rack Server - $11,006.50; PowerEdge R6415 Rack Server - $925
+
+Dense Compute C6420 - $33,693.90
+
+Large memory R940 - $12,775.78
+
+Accelerated Compute R740 - $7,000.44
+
+InfiniBand or OmniPath Network FDR 56Gbps EDR 100Gbps - FDR $ 39.00 – $ 89.00; EDR $1,035.55
+
 
 
 
@@ -136,4 +149,14 @@ www.aws.amazon.com <i>Secure and resizable cloud compute - Amazon EC2 - Amazon W
                       
 www.techtarget.com <i>What is Amazon <B>CloudWatch</b></i> [Online]. Available at: https://www.techtarget.com/searchaws/definition/CloudWatch [Accessed 04 Dec 2022]
 
-                
+https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r640-rack-server/spd/poweredge-r640/pe_r640_tm_vi_vp_sb
+
+https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r840-rack-server/spd/poweredge-r840/pe_r840_12850_vi_vp
+
+https://www.optcore.net/product/56gbs-qsfp-infiniband-fdr-passive-direct-attach-copper-cable/
+
+https://www.dell.com/en-uk/shop/productdetailstxn/poweredge-r740
+
+https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r940-rack-server/spd/poweredge-r940/pe_r940_12229_vi_vp
+
+https://www.avadirect.com/100Gbps-EDR-InfiniBand-or-100Gbps-Ethernet-Network-Adapter-ConnectX-5-VPI-MCX556A-ECAT-2x-QSFP28/Product/10838179                
