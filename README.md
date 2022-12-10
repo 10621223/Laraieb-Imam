@@ -25,7 +25,7 @@ Large memory R940 - $12,775.78*500 = <b>$6,387,500</b>
 
 Accelerated Compute R740 - $7,000.44*500 = <b>$3,500,000</b>
 
-InfiniBand or OmniPath Network FDR 56Gbps EDR 100Gbps - FDR $ 39.00 – $ 89*500 = <b>44,500</b>; EDR $1,035*500 = <b>$517,500</b>
+InfiniBand or OmniPath Network FDR 56Gbps EDR 100Gbps - FDR $ 39.00 – $ 89 * 500 = <b>44,500</b>; EDR $1,035 * 500 = <b>$517,500</b>
 
 Ethernet Network Z910010/25/40/50/100GbE - $3,420.61*500 = <b>$1,710,000</b>
 
