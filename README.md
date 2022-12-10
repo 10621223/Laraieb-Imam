@@ -13,7 +13,7 @@ HubSpot is an American developer and marketer of software products for inbound m
 
 Assuming that Hubspot, a medium CRM company have everything inhouse Network infrastructure, Web servers and Data center.
 
-Hubspot are using 500 Racks specs are as follows:
+<b>Hubspot are using 500 Racks specs & price are as follows:</b>
 
 Head Node Rack Server R640 - $3,019.00*500 = <b>$1,509,500</b>
 
@@ -31,10 +31,11 @@ Ethernet Network Z910010/25/40/50/100GbE - $3,420.61*500 = <b>$1,710,000</b>
 
 SDS Stroage - Dell EMC M3 Series $15,809.00*500 = <b>$7,904,500</b>
 
+Every 5 years all racks need to be replaced. <b>Total cost of 500 racks setup = $42,675,750</b>
 
 <h1>Cloud Recommendations</h1>
 
-Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest m4.large as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under <b>m4.large</b> they will get <b>2 vCPU's (Virtual Centralized Processing Unit)</b> which will provide <b>EBS Strorage</b> type with <b>450mbps</b> of dedicated EBS bandwidth.
+Moving all servers to AWS (Amazon Web Services). Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest m4.large as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under <b>m4.large</b> they will get <b>2 vCPU's (Virtual Centralized Processing Unit)</b> which will provide <b>EBS Strorage</b> type with <b>450mbps</b> of dedicated EBS bandwidth.
 
 It will also include <b>8 Gibibytes (GIB) Microsoft Endpoint Manager (MEM)</b>, which is a cloud-based solution built to solve challenges associated with deploying, managing and securing devices in the enterprise, which includes devices servers, PCs and mobile.
 
@@ -135,7 +136,9 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 
 <b>Total hourly charges for all Gateway Load Balancers (monthly): 1,022.00 USD</b>  
 
-<b>Last years revenue was $1.3bn. All AWS services would cost $17,27,833 per year assuming a 100% usage, though on the services chosen are Ondemand so prices can be lower. Hence, AWS services are most affordable for Hubspot than setting up everything on site.</b>
+<b>Last years revenue was $1.3bn. All AWS services would cost $17,27,833 per year assuming a 100% usage, though on the services chosen are Ondemand so prices can be lower. Hence, AWS services are most affordable for Hubspot than setting up everything onsite which costs $42,675,750</b>
+
+
   
 <h1>Non-cloud Recommadation</h1>
 Outsource customer grievance centre - As a CRM company they can have a huge customer call loads and seprating <b>Grievance Department</b> and outsourcing it can shed off work burden on the Hubspot employees so they can focus on new businesses and minor grievances can be resolved by outsourced customer centre.
@@ -153,9 +156,9 @@ www.aws.amazon.com <i>Secure and resizable cloud compute - Amazon EC2 - Amazon W
                       
 www.techtarget.com <i>What is Amazon <B>CloudWatch</b></i> [Online]. Available at: https://www.techtarget.com/searchaws/definition/CloudWatch [Accessed 04 Dec 2022]
 
-https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r640-rack-server/spd/poweredge-r640/pe_r640_tm_vi_vp_sb
+www.dell.com <i>PowerEdge R640 Rack Server | Dell USA</i> [Online]. Available at: https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r640-rack-server/spd/poweredge-r640/pe_r640_tm_vi_vp_sb [Accessed 10 Dec 2022]
 
-https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r840-rack-server/spd/poweredge-r840/pe_r840_12850_vi_vp
+www.dell.com <i>PowerEdge R840 Rack Server | Dell USA</i> [Online]. Available at: https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r840-rack-server/spd/poweredge-r840/pe_r840_12850_vi_vp [Accessed 10 Dec 2022]
 
 https://www.optcore.net/product/56gbs-qsfp-infiniband-fdr-passive-direct-attach-copper-cable/
 
