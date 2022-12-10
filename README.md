@@ -25,7 +25,9 @@ Accelerated Compute R740 - $7,000.44
 
 InfiniBand or OmniPath Network FDR 56Gbps EDR 100Gbps - FDR $ 39.00 – $ 89.00; EDR $1,035.55
 
+Ethernet Network - Z910010/25/40/50/100 GbE
 
+SDS Stroage - Dell EMC M3 Series $15,809.00
 
 
 <h1>Cloud Recommendations</h1>
@@ -159,4 +161,8 @@ https://www.dell.com/en-uk/shop/productdetailstxn/poweredge-r740
 
 https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r940-rack-server/spd/poweredge-r940/pe_r940_12229_vi_vp
 
-https://www.avadirect.com/100Gbps-EDR-InfiniBand-or-100Gbps-Ethernet-Network-Adapter-ConnectX-5-VPI-MCX556A-ECAT-2x-QSFP28/Product/10838179                
+https://www.avadirect.com/100Gbps-EDR-InfiniBand-or-100Gbps-Ethernet-Network-Adapter-ConnectX-5-VPI-MCX556A-ECAT-2x-QSFP28/Product/10838179       
+
+https://www.dell.com/en-us/shop/productdetailstxn/powervault-me5-series
+
+https://www.dell.com/en-uk/shop/productdetailstxn/poweredge-r740
