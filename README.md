@@ -13,23 +13,23 @@ HubSpot is an American developer and marketer of software products for inbound m
 
 Assuming that Hubspot, a medium CRM company have everything inhouse Network infrastructure, Web servers and Data center.
 
-Hubspot are using 500 Racks Singal Rack specs are as follows:
+Hubspot are using 500 Racks specs are as follows:
 
-Head Node Rack Server R640 - $3,019.00,
+Head Node Rack Server R640 - $3,019.00*500 = 1,509,500
 
-Flexible Compute R840 and R6415 - PowerEdge R840 Rack Server - $11,006.50; PowerEdge R6415 Rack Server - $925
+Flexible Compute R840 and R6415 - PowerEdge R840 Rack Server - $11,006.50*500 = 5,503,250; PowerEdge R6415 Rack Server - $925*500 = 462,500
 
-Dense Compute C6420 - $33,693.90
+Dense Compute C6420 - $33,693.90*500 = 16,846,500
 
-Large memory R940 - $12,775.78
+Large memory R940 - $12,775.78*500 = 6,387,500
 
-Accelerated Compute R740 - $7,000.44
+Accelerated Compute R740 - $7,000.44*500 = 3,500,000
 
 InfiniBand or OmniPath Network FDR 56Gbps EDR 100Gbps - FDR $ 39.00 – $ 89.00; EDR $1,035.55
 
-Ethernet Network Z910010/25/40/50/100GbE - $3,420.61
+Ethernet Network Z910010/25/40/50/100GbE - $3,420.61*500 = 1,710,000
 
-SDS Stroage - Dell EMC M3 Series $15,809.00
+SDS Stroage - Dell EMC M3 Series $15,809.00*500 = 7,904,500
 
 
 <h1>Cloud Recommendations</h1>
