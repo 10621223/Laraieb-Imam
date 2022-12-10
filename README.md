@@ -170,4 +170,4 @@ www.avadirect.com <i>Mellanox ConnectX® -5 VP MCX556A-ECAT (2x QSFP28) 100Gbps 
 
 www.dell.com <i>PowerEdge R940 Rack Server | Dell USA</i> [Online]. Available at: https://www.dell.com/en-us/shop/productdetailstxn/powervault-me5-series [Accessed 10 Dec 2022]
 
-https://www.dell.com/en-uk/shop/productdetailstxn/poweredge-r740 [Accessed 10 Dec 2022]
+www.dell.com <i>Dell PowerEdge R740 Rack Server : Servers | Dell UK</i> [Online]. Available at: https://www.dell.com/en-uk/shop/productdetailstxn/poweredge-r740 [Accessed 10 Dec 2022]
