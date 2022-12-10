@@ -74,7 +74,7 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 <h3>Cloud Watch</h3>
 <p>It is a monitoring tool which helps to track the usage of cloud. The application automatically collects and provides metrics for CPU utilization, latency and request counts. Users can also get additional metrics to be monitored, such as memory usage, transaction volumes or error rates.</p>
 
-<p>The CloudWatch interface provides current statistics that users can view in graph. Users can set notification to be sent when something being monitored surpasses a specified threshold. The app can also detect and shut down unused or underused EC2 instances. It is offered free of cost by AWS and will work as an important tool.</p>
+<p>It provides current statistics that users can view in graph. Users can set notification to be sent when something being monitored surpasses a specified threshold. The app can also detect and shut down unused or underused EC2 instances. It is offered free of cost by AWS and will work as an important tool.</p>
 
 <img src="Images/CloudWatch.png" alt=Functions/>
 
