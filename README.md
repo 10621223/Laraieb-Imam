@@ -160,14 +160,14 @@ www.dell.com <i>PowerEdge R640 Rack Server | Dell USA</i> [Online]. Available at
 
 www.dell.com <i>PowerEdge R840 Rack Server | Dell USA</i> [Online]. Available at: https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r840-rack-server/spd/poweredge-r840/pe_r840_12850_vi_vp [Accessed 10 Dec 2022]
 
-https://www.optcore.net/product/56gbs-qsfp-infiniband-fdr-passive-direct-attach-copper-cable/
+www.optcore.net <i>56Gb/s QSFP+Infiniband FDR Passive Direct Attach Copper Cable | Optcore</i> https://www.optcore.net/product/56gbs-qsfp-infiniband-fdr-passive-direct-attach-copper-cable/ [Accessed 10 Dec 2022]
 
-https://www.dell.com/en-uk/shop/productdetailstxn/poweredge-r740
+www.dell.com <i>Dell PowerEdge R740 Rack Server: Servers | Dell UK</i> [Online]. Available at: https://www.dell.com/en-uk/shop/productdetailstxn/poweredge-r740 [Accessed 10 Dec 2022]
 
-https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r940-rack-server/spd/poweredge-r940/pe_r940_12229_vi_vp
+www.dell.com <i>Dell PowerEdge R940 Rack Server | Dell USA</i> [Online]. Available at: https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r940-rack-server/spd/poweredge-r940/pe_r940_12229_vi_vp [Accessed 10 Dec 2022]
 
-https://www.avadirect.com/100Gbps-EDR-InfiniBand-or-100Gbps-Ethernet-Network-Adapter-ConnectX-5-VPI-MCX556A-ECAT-2x-QSFP28/Product/10838179       
+www.avadirect.com <i>Mellanox ConnectX® -5 VP MCX556A-ECAT (2x QSFP28) 100Gbps EDR</i> [Online]. Available at: https://www.avadirect.com/100Gbps-EDR-InfiniBand-or-100Gbps-Ethernet-Network-Adapter-ConnectX-5-VPI-MCX556A-ECAT-2x-QSFP28/Product/10838179 [Accessed 10 Dec 2022]    
 
-https://www.dell.com/en-us/shop/productdetailstxn/powervault-me5-series
+www.dell.com <i>PowerEdge R940 Rack Server | Dell USA</i> [Online]. Available at: https://www.dell.com/en-us/shop/productdetailstxn/powervault-me5-series [Accessed 10 Dec 2022]
 
-https://www.dell.com/en-uk/shop/productdetailstxn/poweredge-r740
+https://www.dell.com/en-uk/shop/productdetailstxn/poweredge-r740 [Accessed 10 Dec 2022]
