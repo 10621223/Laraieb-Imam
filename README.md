@@ -17,29 +17,29 @@ Assuming that Hubspot, CRM company have everything inhouse Network infrastructur
 
 - Head Node Rack Server R640 - $3,019.00*500 = <b>$1,509,500</b>
 
-Flexible Compute R840 and R6415 - PowerEdge R840 Rack Server - $11,006.50*500 = <b>$5,503,250</b>; PowerEdge R6415 Rack Server - $925*500 = <b>$462,500</b>
+- Flexible Compute R840 and R6415 - PowerEdge R840 Rack Server - $11,006.50*500 = <b>$5,503,250</b>; PowerEdge R6415 Rack Server - $925*500 = <b>$462,500</b>
 
-Dense Compute C6420 - $33,693.90*500 = <b>$16,846,500</b>
+- Dense Compute C6420 - $33,693.90*500 = <b>$16,846,500</b>
 
-Large memory R940 - $12,775.78*500 = <b>$6,387,500</b>
+- Large memory R940 - $12,775.78*500 = <b>$6,387,500</b>
 
-Accelerated Compute R740 - $7,000.44*500 = <b>$3,500,000</b>
+- Accelerated Compute R740 - $7,000.44*500 = <b>$3,500,000</b>
 
-InfiniBand or OmniPath Network FDR 56Gbps EDR 100Gbps - FDR $ 39.00 – $ 89 * 500 = <b>44,500</b>; EDR $1,035 * 500 = <b>$517,500</b>
+- InfiniBand or OmniPath Network FDR 56Gbps EDR 100Gbps - FDR $ 39.00 – $ 89 * 500 = <b>44,500</b>; EDR $1,035 * 500 = <b>$517,500</b>
 
-Ethernet Network Z910010/25/40/50/100GbE - $3,420.61*500 = <b>$1,710,000</b>
+- Ethernet Network Z910010/25/40/50/100GbE - $3,420.61*500 = <b>$1,710,000</b>
 
-SDS Stroage - Dell EMC M3 Series $15,809.00*500 = <b>$7,904,500</b>
+- SDS Stroage - Dell EMC M3 Series $15,809.00*500 = <b>$7,904,500</b>
 
-Every 5 years all racks need to be replaced. <b>Total cost of 500 racks setup = $42,675,750</b>
+- Every 5 years all racks need to be replaced. <b>Total cost of 500 racks setup = $42,675,750</b>
 
 <h1>Cloud Recommendations</h1>
 
-Moving all servers to AWS (Amazon Web Services). Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest m4.large as it is suitable for such scaleable enterprise. Hupspot's seems to fit perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under <b>m4.large</b> they will get <b>2 vCPU's (Virtual Centralized Processing Unit)</b> which will provide <b>EBS Strorage</b> type with <b>450mbps</b> of dedicated EBS bandwidth.
+Moving all servers to AWS (Amazon Web Services). Amazon EC2 provide wide section of use cases, since Hubspot is medium entreprise I would suggest m4.large as it is suitable for such scaleable enterprise. Hupspot fits perfectly in this category. EC2 provides a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. Under <b>m4.large</b> they will get <b>2 vCPU's (Virtual Centralized Processing Unit)</b> which will provide <b>EBS Strorage</b> type with <b>450mbps</b> of dedicated EBS bandwidth.
 
 It will also include <b>8 Gibibytes (GIB) Microsoft Endpoint Manager (MEM)</b>, which is a cloud-based solution built to solve challenges associated with deploying, managing and securing devices in the enterprise, which includes devices servers, PCs and mobile.
 
-CRM company Hubspot is data driven company and will required Large storage hence, FSx cluster file storage system will suit the needs of the company. Additionally, <b>Cloud Watch</b> will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
+Hubspot is data driven company and will required Large storage hence, FSx cluster file storage system will suit the needs of the company. Additionally, <b>Cloud Watch</b> will be an useful tool to include in the package. Cloud watch is a monitoring tool which helps to track the usage of cloud. 
 
 In Summary, recommendation for HubSpot is Quantity of instances (900), Pricing strategy (On-Demand Instances) On Demand since it can be made active whenever needed which will save time and cost usually load balancer handles the traffic and actives EC2 as needed, Storage amount (16 TB), Instance type (m4.large).
 
@@ -72,7 +72,7 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 </ul>
 
 <h3>Cloud Watch</h3>
-<p>Cloud watch is a monitoring tool which helps to track the usage of cloud. The application automatically collects and provides metrics for CPU utilization, latency and request counts. Users can also get additional metrics to be monitored, such as memory usage, transaction volumes or error rates.</p>
+<p>It is a monitoring tool which helps to track the usage of cloud. The application automatically collects and provides metrics for CPU utilization, latency and request counts. Users can also get additional metrics to be monitored, such as memory usage, transaction volumes or error rates.</p>
 
 <p>The CloudWatch interface provides current statistics that users can view in graph format. Users can set notification alarms to be sent when something being monitored surpasses a specified threshold. The app can also detect and shut down unused or underused EC2 instances. It is offered free of cost by AWS and will work as an important tool for HubSpot.</p>
 
