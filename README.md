@@ -15,21 +15,21 @@ Assuming that Hubspot, a medium CRM company have everything inhouse Network infr
 
 Hubspot are using 500 Racks specs are as follows:
 
-Head Node Rack Server R640 - $3,019.00*500 = 1,509,500
+Head Node Rack Server R640 - $3,019.00*500 = <b>$1,509,500</b>
 
-Flexible Compute R840 and R6415 - PowerEdge R840 Rack Server - $11,006.50*500 = 5,503,250; PowerEdge R6415 Rack Server - $925*500 = 462,500
+Flexible Compute R840 and R6415 - PowerEdge R840 Rack Server - $11,006.50*500 = <b>$5,503,250</b>; PowerEdge R6415 Rack Server - $925*500 = <b>$462,500</b>
 
-Dense Compute C6420 - $33,693.90*500 = 16,846,500
+Dense Compute C6420 - $33,693.90*500 = <b>$16,846,500</b>
 
-Large memory R940 - $12,775.78*500 = 6,387,500
+Large memory R940 - $12,775.78*500 = <b>$6,387,500</b>
 
-Accelerated Compute R740 - $7,000.44*500 = 3,500,000
+Accelerated Compute R740 - $7,000.44*500 = <b>$3,500,000</b>
 
-InfiniBand or OmniPath Network FDR 56Gbps EDR 100Gbps - FDR $ 39.00 – $ 89.00; EDR $1,035.55
+InfiniBand or OmniPath Network FDR 56Gbps EDR 100Gbps - FDR $ 39.00 – $ 89.00*500 = <b>44,500</b>; EDR $1,035.55*500 = <b>$517,500</b>
 
-Ethernet Network Z910010/25/40/50/100GbE - $3,420.61*500 = 1,710,000
+Ethernet Network Z910010/25/40/50/100GbE - $3,420.61*500 = <b>$1,710,000</b>
 
-SDS Stroage - Dell EMC M3 Series $15,809.00*500 = 7,904,500
+SDS Stroage - Dell EMC M3 Series $15,809.00*500 = <b>$7,904,500</b>
 
 
 <h1>Cloud Recommendations</h1>
