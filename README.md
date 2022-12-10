@@ -74,7 +74,7 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 <h3>Cloud Watch</h3>
 <p>It is a monitoring tool which helps to track the usage of cloud. The application automatically collects and provides metrics for CPU utilization, latency and request counts. Users can also get additional metrics to be monitored, such as memory usage, transaction volumes or error rates.</p>
 
-<p>The CloudWatch interface provides current statistics that users can view in graph format. Users can set notification alarms to be sent when something being monitored surpasses a specified threshold. The app can also detect and shut down unused or underused EC2 instances. It is offered free of cost by AWS and will work as an important tool for HubSpot.</p>
+<p>The CloudWatch interface provides current statistics that users can view in graph. Users can set notification to be sent when something being monitored surpasses a specified threshold. The app can also detect and shut down unused or underused EC2 instances. It is offered free of cost by AWS and will work as an important tool.</p>
 
 <img src="Images/CloudWatch.png" alt=Functions/>
 
@@ -96,7 +96,7 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
  
 </ul>
 
-<b>2. Data Transfer -</b> Data transfer is required because CRM tool has big data size due to customer information and purchase information and other factors so Hubspot needs data transfer option for analysis and projection.
+<b>2. Data Transfer -</b> It is required because CRM tool has big data size due to customer information and purchase information and other factors so Hubspot needs data transfer option for analysis and projection.
 
 <ul>
   <p><li><b>Unit conversions:</b></li>
@@ -124,7 +124,7 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 <p><b>Data Transfer cost (monthly): 1,771.52 USD</b></p>
 
 
-<p><b>3. Traffic Monitoring -</b> Traffic monitoring is required because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. </b>
+<p><b>3. Traffic Monitoring -</b> It is required because if the account user usage crosses the load the network can handle it will crash so it's required to keep that in check. </b>
 
 900 sessions x 730 hours in a month x 0.018 USD per session-hr = <b>11,826.00 USD</b>
 
