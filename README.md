@@ -139,10 +139,6 @@ EC2 is  Elastic Compute Cloud. It allows users to rent virtual computers on whic
 <b>Last years revenue was $1.3bn. All AWS services would cost $17,27,833 per year assuming a 100% usage, though on the services chosen are Ondemand so prices can be lower. Hence, AWS services are most affordable for Hubspot than setting up everything onsite which costs $42,675,750</b>
 
 
-  
-<h1>Non-cloud Recommadation</h1>
-Outsource customer grievance centre - As a CRM company they can have a huge customer call loads and seprating <b>Grievance Department</b> and outsourcing it can shed off work burden on the Hubspot employees so they can focus on new businesses and minor grievances can be resolved by outsourced customer centre.
-
 <h1>References</h1>
 www.hubspot.com. <i>HubSpot | Software, Tools, and Resources to Help Your Business Grow Better</i> [Online] Available at: https.www.hubspot.com [Accessed 1 Dec 2022].
 
