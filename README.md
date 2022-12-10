@@ -6,16 +6,16 @@ Enterprise Name: Hubspot
 
 <h1>Background</h1>
 
-HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service, was founded in 2006. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.(www.hubspot.com). More than 150,000 companies using HubSpot to scale, it's time to celebrate those that inspire us to innovate, to imagine, and to grow better. (www.hubspot.com). Current workforce of Hubspot is 5,895. Hubspot's 2021 Revenue was $1.3 Billion.(www.hubspot.com).
+HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service. It is is a CRM platform that offers softwares to manage different kinds of businesses - Marketing Automation Software, Sales CRM Softwares, CMS (Content Management Software), Operations Software, Customer Service Software. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped. More than 150,000 companies using HubSpot to scale. Current workforce of Hubspot is 5,895. Hubspot's 2021 Revenue was $1.3 Billion.(www.hubspot.com).
 
 
 <h1>Current IT Setup</h1>
 
-Assuming that Hubspot, a medium CRM company have everything inhouse Network infrastructure, Web servers and Data center.
+Assuming that Hubspot, CRM company have everything inhouse Network infrastructure, Web servers and Data center.
 
-<b>Hubspot are using 500 Racks specs & price are as follows:</b>
+<b>Hubspot is using 500 Racks specs & price are as follows:</b>
 
-Head Node Rack Server R640 - $3,019.00*500 = <b>$1,509,500</b>
+- Head Node Rack Server R640 - $3,019.00*500 = <b>$1,509,500</b>
 
 Flexible Compute R840 and R6415 - PowerEdge R840 Rack Server - $11,006.50*500 = <b>$5,503,250</b>; PowerEdge R6415 Rack Server - $925*500 = <b>$462,500</b>
 
